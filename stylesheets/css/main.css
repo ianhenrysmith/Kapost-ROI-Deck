@@ -2,12 +2,12 @@ body {
   font-family: Helvetica; }
 
 .deck {
-  color: #252525;
-  margin: auto;
-  width: 960px; }
+  color: #252525; }
 
 .slide {
-  min-height: 960px; }
+  margin: auto;
+  min-height: 960px;
+  width: 960px; }
 
 .slide_blue {
   background-color: #7cbfd6; }

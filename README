@@ -1,7 +1,10 @@
-So I'm using haml and sass here cause it's better that way.
+So I'm using haml, coffeescript and sass here cause it's better that way.
 Not sure if they'll work out of the box so to get started:
 
   1) this will get sass set up:
       sass --watch stylesheets/sass:stylesheets/css
   2) this will generate index.html:
       haml haml/index.haml index.html
+  3) get y'all's coffees all upons dey:
+      coffee -o js/ -cw js/coffeescripts
+      
