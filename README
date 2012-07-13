@@ -1,0 +1,7 @@
+So I'm using haml and sass here cause it's better that way.
+Not sure if they'll work out of the box so to get started:
+
+  1) this will get sass set up:
+      sass --watch stylesheets/sass:stylesheets/css
+  2) this will generate index.html:
+      haml haml/index.haml index.html

@@ -1,0 +1,13 @@
+body {
+  font-family: Helvetica; }
+
+.deck {
+  color: #252525;
+  margin: auto;
+  width: 960px; }
+
+.slide {
+  min-height: 960px; }
+
+.slide_blue {
+  background-color: #7cbfd6; }
