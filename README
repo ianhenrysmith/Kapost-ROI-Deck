@@ -14,3 +14,6 @@ Not sure if they'll work out of the box so to get started:
 The three main files here are haml/index.haml, stylesheets/sass/main.sass and js/coffeescripts/main.coffee
 
 We're also using jquery.pitchdeck.js, which handles the pitch-deck-ification of the page. There's a decent example implementation of it at http://investors.dressrush.com/ .
+
+
+Note about positioning clouds: I've just been giving them inline style, since it would be kind of silly to give each its own class.

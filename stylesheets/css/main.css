@@ -1,12 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Arvo:400,700,400italic,700italic|Amatic+SC:400,700|Open+Sans+Condensed:300,700,300italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
 body {
-  font-family: Helvetica; }
+  font-family: Helvetica;
+  overflow-x: hidden; }
 
 a {
   text-decoration: none; }
 
 a:hover {
   text-decoration: none; }
+
+html {
+  overflow-x: hidden; }
 
 #nav {
   position: fixed;
@@ -16,6 +20,10 @@ a:hover {
   #nav .table_container {
     margin: auto;
     width: 960px; }
+
+.deck {
+  overflow-x: hidden;
+  width: 100%; }
 
 .callout_awesome {
   text-align: center;
@@ -35,6 +43,9 @@ a:hover {
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase; }
+
+.cloud {
+  position: absolute; }
 
 .content_area_1 {
   padding: 128px 0 190px 0; }
@@ -174,7 +185,7 @@ a:hover {
   background-color: #b9e3ed; }
 
 .blue_seafoam {
-  background-color: #d9ebef; }
+  background-color: #7cbfd6; }
 
 .blue_sky {
   background-color: #a1d6e4; }

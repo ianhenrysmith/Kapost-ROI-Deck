@@ -3,7 +3,7 @@
 
 // colors
 $blue-green: #3b95ae
-$blue-seafoam: #d9ebef
+$blue-0: #7cbfd6
 $blue-1: #b9e3ed
 $blue-2: #0371b8
 $blue-sky: #a1d6e4
@@ -19,12 +19,16 @@ $orange-burnt: #c4701e
 // base styles
 body
   font-family: Helvetica
+  overflow-x: hidden
   
 a
   text-decoration: none
   
 a:hover
   text-decoration: none
+  
+html
+  overflow-x: hidden
   
 // important dealies
 #nav
@@ -35,6 +39,10 @@ a:hover
   .table_container
     margin: auto
     width: 960px
+    
+.deck
+  overflow-x: hidden
+  width: 100%
 
 
 // modules
@@ -56,6 +64,9 @@ a:hover
   font-size: 20px
   font-weight: bold
   text-transform: uppercase
+
+.cloud
+  position: absolute
 
 .content_area_1
   padding: 128px 0 190px 0
@@ -199,7 +210,7 @@ a:hover
   background-color: $blue-1
   
 .blue_seafoam
-  background-color: $blue-seafoam
+  background-color: $blue-0
   
 .blue_sky
   background-color: $blue-sky
