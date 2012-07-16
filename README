@@ -8,3 +8,9 @@ Not sure if they'll work out of the box so to get started:
   3) this will get coffeescript set up to watch for coffeescript changes:
       coffee -o js/ -cw js/coffeescripts
       
+      you'll need to install node.js in order to get coffeescript to work.
+      
+      
+The three main files here are haml/index.haml, stylesheets/sass/main.sass and js/coffeescripts/main.coffee
+
+We're also using jquery.pitchdeck.js, which handles the pitch-deck-ification of the page. There's a decent example implementation of it at http://investors.dressrush.com/ .
