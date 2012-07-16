@@ -24,7 +24,6 @@
       .nav_spacer                                  
       %a.nav.toplink{:href=>"#slide_7", :title => "7"}=""
   #slide_1.slide.blue_seafoam.margin_20t
-    = "smoop 1"
     
   .slide_with_bleed.green_forest  
     #slide_2.slide
@@ -40,7 +39,7 @@
   #slide_3.slide.blue_1
     .content_area_1
       .title_1.title_small.text_blue_green="If it's a small title it could look like this"
-      .list_1.text_green_forest
+      .list_centered.text_green_forest
         .list_item_1="Here are some short bullet points with a little text"
         .list_item_1="More emphasis on marketing metrics"
         .list_item_1="Ads becoming less effective"
@@ -49,16 +48,46 @@
 
   .slide_with_bleed.green_aqua
     #slide_4.slide.slide_short
-      .callout_awesome.text_white
-        = "If you want to emphasize a line or two of text, let's have an awesome callout"
+      .callout_awesome.title_callout.text_white= "If you want to emphasize a line or two of text, let's have an awesome callout"
     
   #slide_5.slide.blue_sky
-    .title
-    = "smoop 5"
+    .title_area_1
+      .title_large.text_gray_dark="Also makes for a pretty good large title"
+      .title_secondary.text_orange_burnt.text_right="... yeah?"
+    .image_area_1.width_300
+      %img{:src => "images/tcm.png"}
+      .caption_area.text_green_forest
+        .caption_title="Caption for a graphic"
+        .caption_text="(pretend it's another graphic)"
     
   .slide_with_bleed.gray
     #slide_6.slide
-      = "smoop 6"
+      .content_area_1
+        %table.table_1
+          %td.width_160
+            .title_1.text_blue_green="Fast, easy adoption of Kapost:"
+          %td
+            .text_green_forest
+              .list_item_2
+                %b="Saas"
+                ="(Software-as-a-service)"
+              .list_item_2
+                %b="Easy to use,"
+                ="easy to deploy"
+              .list_item_2
+                %b="Quickly"
+                ="imports your current data & never holds your data hostage... ever."
+              .list_item_2
+                %b="Plus"
+                ="you get a 30 day trial to kick the tires"
     
-  #slide_7.slide.white
-    = "smoop 7"
+  #slide_7.slide.white.slide_short
+    .content_area_2
+      %table.table_contact
+        %td.text_amatic="Contact"
+        %td="(kp logo)"
+        %td
+          %p
+            %a{:class=> "link_style_1", :href => "http://kapost.com"}="Kapost.com"
+          %p
+            %a{:class=> "link_style_1", :href => "mailto:sales@kapost.com"}="sales@kapost.com"

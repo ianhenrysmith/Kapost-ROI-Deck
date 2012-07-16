@@ -18,24 +18,54 @@ a:hover {
     width: 960px; }
 
 .callout_awesome {
-  font-size: 32px;
-  line-height: 60px;
   text-align: center;
   text-transform: uppercase;
   padding: 137px 0 137px 0; }
 
+.caption_area {
+  padding: 32px 0 96px 0; }
+
+.caption_text {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase; }
+
+.caption_title {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
 .content_area_1 {
   padding: 128px 0 190px 0; }
+
+.content_area_2 {
+  padding: 268px 0 72px 0; }
 
 .deck {
   color: #252525; }
 
-.list_1 {
+.image_area_1 {
+  margin: auto; }
+
+.link_style_1 {
+  color: #0371b8;
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  font-weight: 600; }
+
+.list_centered {
   margin: 32px 0 0 200px; }
 
 .list_item_1 {
+  font-family: "Open Sans", sans-serif;
   font-size: 21px;
-  margin-top: 38px; }
+  margin: 38px 0 0 0; }
+
+.list_item_2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  line-height: 64px; }
 
 .margin_20t {
   margin-top: 20px; }
@@ -72,16 +102,58 @@ a:hover {
 .slide_with_bleed {
   width: 100% !important; }
 
+.table_1 {
+  margin: 0 50px 0 82px; }
+  .table_1 td {
+    padding: 0 40px 0 0;
+    vertical-align: top; }
+
+.table_contact {
+  border-bottom: 3px solid black;
+  margin: auto; }
+
 .text_1 {
+  font-family: "Open Sans", sans-serif;
   font-size: 40px;
   line-height: 66px;
   margin: 60px 114px 0 134px; }
 
+.text_amatic {
+  font-family: "Amatic SC", cursive;
+  font-size: 32px;
+  font-weight: 700; }
+
+.text_right {
+  text-align: right; }
+
 .title_1 {
   display: inline-block;
+  font-family: "Lato", sans-serif;
   font-size: 26px;
   font-weight: bold;
+  text-transform: uppercase;
+  vertical-align: top; }
+
+.title_area_1 {
+  padding: 250px 72px 30px 72px; }
+
+.title_callout {
+  font-family: "Lato", sans-serif;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 60px;
   text-transform: uppercase; }
+
+.title_large {
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 40px;
+  text-transform: uppercase; }
+
+.title_secondary {
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px; }
 
 .title_small {
   margin: 0 0 0 90px; }
@@ -90,6 +162,12 @@ a:hover {
   background: white;
   padding: 20px 24px 24px 24px; }
 
+.width_160 {
+  width: 160px; }
+
+.width_300 {
+  width: 300px; }
+
 .blue_1 {
   background-color: #b9e3ed; }
 
@@ -97,7 +175,7 @@ a:hover {
   background-color: #d9ebef; }
 
 .blue_sky {
-  background-color: #7cbfd6; }
+  background-color: #a1d6e4; }
 
 .gray {
   background-color: silver; }
@@ -114,8 +192,14 @@ a:hover {
 .text_blue_green {
   color: #3b95ae; }
 
+.text_gray_dark {
+  color: #666666; }
+
 .text_green_forest {
   color: #29575f; }
+
+.text_orange_burnt {
+  color: #c4701e; }
 
 .text_white {
   color: white; }
