@@ -1,16 +1,143 @@
-//colors
-$blue-sky: #7CBFD6
+// google fonts
+@import url(http://fonts.googleapis.com/css?family=Nixie+One|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Arvo:400,700,400italic,700italic|Amatic+SC:400,700|Open+Sans+Condensed:300,700,300italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300)
 
+// colors
+$blue-green: #3b95ae
+$blue-seafoam: #d9ebef
+$blue-1: #b9e3ed
+$blue-sky: #7cbfd6
+
+$gray: #c0c0c0
+
+$green-aqua: #00baa7
+$green-forest: #29575f
+
+// base styles
 body
   font-family: Helvetica
+  
+a
+  text-decoration: none
+  
+a:hover
+  text-decoration: none
+  
+// important dealies
+#nav
+  position: fixed
+  top: 0
+  width: 100%
+  z-index: 10
+  .table_container
+    margin: auto
+    width: 960px
+
+
+// modules
+.callout_awesome
+  font-size: 32px
+  line-height: 60px
+  text-align: center
+  text-transform: uppercase
+  padding: 137px 0 137px 0
+
+.content_area_1
+  padding: 128px 0 190px 0
 
 .deck
   color: #252525
   
+.list_1
+  margin: 32px 0 0 200px
+  
+.list_item_1
+  font-size: 21px
+  margin-top: 38px
+  
+.margin_20t
+  margin-top: 20px
+
+.nav
+  background: url(../../images/nav_btns.png) no-repeat -282px 0
+  color: #CAC7C1
+  display: inline-block
+  font-size: 18px
+  // border-top: 4px solid #F3F0E9;
+  height: 22px
+  line-height: 22px
+  padding: 18px 0 12px
+  text-align: center
+  text-shadow: white 0 1px 0
+  width: 47px
+  
+.nav_spacer
+  background: url(../../images/nav-filler.png) repeat-x 0 29px
+  display: inline-block
+  height: 56px
+  vertical-align: -16px
+  width: 23px
+  
 .slide
-  margin: auto
-  min-height: 960px
+  margin-left: auto
+  margin-right: auto
+  min-height: 640px
+  position: relative
   width: 960px
   
-.slide_blue
+.slide_short
+  min-height: 0px
+  
+.slide_with_bleed
+  width: 100% !important
+  
+.text_1
+  font-size: 40px
+  line-height: 66px
+  margin: 60px 114px 0 134px
+  
+.title_1
+  display: inline-block
+  font-size: 26px
+  font-weight: bold
+  text-transform: uppercase
+  
+.title_small
+  margin: 0 0 0 90px
+  
+.title_caption_style
+  background: white
+  padding: 20px 24px 24px 24px
+  
+  
+  
+// color classes
+.blue_1
+  background-color: $blue-1
+  
+.blue_seafoam
+  background-color: $blue-seafoam
+  
+.blue_sky
   background-color: $blue-sky
+  
+.gray
+  background-color: $gray
+  
+.green_aqua
+  background-color: $green-aqua
+  
+.green_forest
+  background-color: $green-forest
+  
+.white
+  background-color: white
+  
+// text
+.text_blue_green
+  color: $blue-green
+  
+.text_green_forest
+  color: $green-forest
+  
+.text_white
+  color: white

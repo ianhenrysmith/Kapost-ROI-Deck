@@ -1,10 +1,10 @@
 So I'm using haml, coffeescript and sass here cause it's better that way.
 Not sure if they'll work out of the box so to get started:
 
-  1) this will get sass set up:
+  1) this will get sass set up to watch for sass changes:
       sass --watch stylesheets/sass:stylesheets/css
-  2) this will generate index.html:
+  2) this will generate index.html (not automatic):
       haml haml/index.haml index.html
-  3) get y'all's coffees all upons dey:
+  3) this will get coffeescript set up to watch for coffeescript changes:
       coffee -o js/ -cw js/coffeescripts
       
