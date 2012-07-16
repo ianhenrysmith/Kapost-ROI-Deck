@@ -31,11 +31,11 @@
 				
 				// Change the current navigation class to 'current'
 				$(o.slides).waypoint(function(e, dir) {
-					//console.log($(this));
 					if(dir == 'up' && $(this).attr('id') != 'slide1') slide = $(this).prev();
 					else slide = $(this);
+					index = $(".slide").index($(this))
 					$(o.top_links).removeClass('current');
-					$(o.top_links+'[href=#'+slide.attr('id')+']').addClass('current');
+					$($(o.top_links).get(index)).addClass('current');
 				});
 				
 				// Add the labels beneath the navigation links
@@ -83,8 +83,11 @@
 				// Set up keyboard control
 				if(o.keyboard) {
 					$(document).keydown(function(e){
-					    if ((e.keyCode == 37) && slide.attr('id') != 'slide1') { 
-							slide = slide.prev();
+					    if (e.keyCode == 37) { 
+              // slide = slide.prev();
+							index = $(".nav").index($(".nav.current"))
+              // console.log(index)
+							slide = $('.slide').get(index - 1)
 							$(window)._scrollable().stop();
 							$(window).scrollTo(slide, {
 								duration: o.duration,
@@ -93,8 +96,11 @@
 					    	
 							return false;
 					    }
-					    else if ((e.keyCode == 39 || e.keyCode == 32) && slide.attr('id') != 'slide11') { 
-							slide = slide.next();
+					    else if (e.keyCode == 39 || e.keyCode == 32) { 
+					    
+					    index = $(".nav").index($(".nav.current"))
+					    slide = $('.slide').get(index + 1)
+              // slide = slide.next();
 							$(window)._scrollable().stop();
 							$(window).scrollTo(slide, {
 								duration: o.duration,
