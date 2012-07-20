@@ -78,9 +78,6 @@ html {
   font-size: 26px;
   line-height: 64px; }
 
-.margin_20t {
-  margin-top: 20px; }
-
 .nav {
   background: url(../../images/nav_btns.png) no-repeat -282px 0;
   color: #cac7c1;
@@ -105,7 +102,7 @@ html {
 .slide {
   margin-left: auto;
   margin-right: auto;
-  min-height: 640px;
+  min-height: 1070px;
   position: relative;
   width: 960px; }
 
@@ -135,6 +132,10 @@ html {
   font-family: "Amatic SC", cursive;
   font-size: 32px;
   font-weight: 700; }
+
+.text_nixie {
+  font-family: "Nixie One", Rockwell, serif;
+  text-align: center; }
 
 .text_right {
   text-align: right; }
@@ -185,7 +186,7 @@ html {
   background-color: #b9e3ed; }
 
 .blue_seafoam {
-  background-color: #7cbfd6; }
+  background-color: #89cde2; }
 
 .blue_sky {
   background-color: #a1d6e4; }
@@ -208,6 +209,9 @@ html {
 .text_gray_dark {
   color: #666666; }
 
+.text_gray_light {
+  color: #333333; }
+
 .text_green_forest {
   color: #29575f; }
 
@@ -216,3 +220,27 @@ html {
 
 .text_white {
   color: white; }
+
+.relative {
+  position: relative; }
+
+.zindex_9 {
+  z-index: 9; }
+
+.font_size_48 {
+  font-size: 48px; }
+
+.font_size_24 {
+  font-size: 24px; }
+
+.margin_20t {
+  margin-top: 20px; }
+
+.margin_60t {
+  margin-top: 60px; }
+
+.margin_70t {
+  margin-top: 70px; }
+
+.padding_300t {
+  padding-top: 300px; }

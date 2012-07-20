@@ -26,7 +26,9 @@
       <a class='nav toplink' href='#slide_7' title='7'></a>
     </div>
   </div>
-  <div class='slide blue_seafoam margin_20t' id='slide_1'>
+  <div class='slide blue_seafoam margin_70t' id='slide_1'>
+    <div class='text_gray_light text_nixie padding_300t relative font_size_48 zindex_9'>Building and Running Your Own Content Marketing Machine</div>
+    <div class='text_nixie relative zindex_9 text_gray_dark font_size_24 margin_60t'>- on -</div>
     <img class='cloud' src='images/complex-cloud-1-lg.png' style='left: -230px; top: 80px' />
     <img class='cloud' src='images/simple-cloud-1-lg.png' style='right: -296px; top: 330px' />
   </div>
