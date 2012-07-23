@@ -221,6 +221,9 @@ html {
 .text_white {
   color: white; }
 
+.text_center {
+  text-align: center; }
+
 .relative {
   position: relative; }
 

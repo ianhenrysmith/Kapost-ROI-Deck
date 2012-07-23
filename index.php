@@ -26,22 +26,30 @@
       <a class='nav toplink' href='#slide_7' title='7'></a>
     </div>
   </div>
-  <div class='slide blue_seafoam margin_70t' id='slide_1'>
+  <div class='slide blue_seafoam margin_70t text_center' id='slide_1'>
     <div class='text_gray_light text_nixie padding_300t relative font_size_48 zindex_9'>Building and Running Your Own Content Marketing Machine</div>
     <div class='text_nixie relative zindex_9 text_gray_dark font_size_24 margin_60t'>- on -</div>
-    <img class='cloud' src='images/complex-cloud-1-lg.png' style='left: -230px; top: 80px' />
-    <img class='cloud' src='images/simple-cloud-1-lg.png' style='right: -296px; top: 330px' />
+    <img class='zindex_9 relative' src='images/kapost-logo.png' />
+    <img class='cloud' src='images/complex-cloud-1-lg.png' style='left: -220px; top: 0px' />
+    <img class='cloud' src='images/simple-cloud-1-lg.png' style='right: -276px; top: 490px' />
+    <img class='cloud' src='images/simple-cloud-2-lg.png' style='left: -150px; top: 728px' />
   </div>
   <div class='slide_with_bleed green_forest'>
     <div class='slide' id='slide_2'>
       <div class='content_area_1'>
-        <div class='title_1 title_caption_style text_blue_green'>A caption style text to lead into some text...</div>
+        <div class='title_1 title_caption_style text_blue_green'>MARKETING MUST GENERATE LEADS & OPPORTUNITIES</div>
         <div class='text_white text_1'>
-          This is a nice long paragraph of text with some bold text. Your buyer had removed much of the sales process, completing
-          <b>70%</b>
-          of their research
-          <b>BEFORE</b>
-          they ever contact a sales person.
+          The Internet has put the Buyer in control.
+        </div>
+        <div class='text_white text_1'>
+          <u>
+            <b>70%</b>
+            of the Buying Cycle
+          </u>
+          is complete before Sales is contacted.
+        </div>
+        <div class='text_white text_1'>
+          Marketing must generate leads and nurture them into opportunities.
         </div>
       </div>
     </div>
