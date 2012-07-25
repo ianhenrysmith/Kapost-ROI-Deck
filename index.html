@@ -32,8 +32,8 @@
       <div class='text_gray_light text_nixie padding_230t relative font_size_48 zindex_9'>Building and Running Your Own Content Marketing Machine</div>
       <div class='text_nixie relative zindex_9 text_gray_dark font_size_24 margin_60t'>- on -</div>
       <img class='zindex_9 relative' src='images/kapost-logo.png' />
-      <img class='cloud' data-stellar-ratio='0.3' src='images/complex-cloud-1-lg.png' style='left: -220px; top: 0px' />
-      <img class='cloud' src='images/simple-cloud-1-lg.png' style='right: -276px; top: 420px' />
+      <img class='cloud' data-stellar-horizontal-offset='120' data-stellar-ratio='0.6' data-stellar-vertical-offset='20' src='images/complex-cloud-1-lg.png' style='left: -220px; top: 0px' />
+      <img class='cloud' data-stellar-horizontal-offset='120' data-stellar-ratio='0.6' data-stellar-vertical-offset='40' src='images/simple-cloud-1-lg.png' style='' />
       <img class='cloud' src='images/simple-cloud-2-lg.png' style='left: -150px; top: 775px' />
     </div>
   </div>
