@@ -2,11 +2,13 @@
 @import url(http://fonts.googleapis.com/css?family=Nixie+One|Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Arvo:400,700,400italic,700italic|Amatic+SC:400,700|Open+Sans+Condensed:300,700,300italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300)
 
 // colors
-$blue-green: #3b95ae
+$blue-green: #295860
 $blue-0: #89CDE2
 $blue-1: #b9e3ed
 $blue-2: #0371b8
+$blue-3: #2B8CA6
 $blue-sky: #a1d6e4
+$blue-light :#79a8c8
 
 $gray: #c0c0c0
 $gray-dark: #666
@@ -38,7 +40,7 @@ html
   position: fixed
   top: 0
   width: 100%
-  z-index: 10
+  z-index: 99
   .table_container
     margin: auto
     width: 960px
@@ -52,7 +54,7 @@ html
 .callout_awesome
   text-align: center
   text-transform: uppercase
-  padding: 137px 0 137px 0
+  padding: 0
   
 .caption_area
   padding: 32px 0 96px 0
@@ -143,17 +145,37 @@ html
 .slide_with_bleed
   width: 100% !important
   
+.stripe
+  background: $blue-light
+  line-height: 36px
+  padding-left: 55px
+  margin-top: 8px
+  
 #slide_2
   .green_forest
-    padding: 40px 0 70px
+    padding: 40px 0 85px
   a
     color: $white-dark
     text-decoration: underline
+    
+#slide_3
+  a
+    font-family: 'Open Sans', sans-serif
+    font-size: 24px
+    line-height: 28px
+    text-decoration: underline
+    color: $blue-3
   
 .table_1
   margin: 0 50px 0 82px
   td
     padding: 0 40px 0 0
+    vertical-align: top
+    
+.table_2
+  margin: 0 55px 45px
+  td
+    width: 400px
     vertical-align: top
     
 .table_contact
@@ -163,8 +185,8 @@ html
 .text_1
   font-family: 'Open Sans', sans-serif
   font-size: 40px
+  line-height: 45px
   margin: 40px 0 0 60px
-  color: $white-dark
   
 .text_amatic
   font-family: 'Amatic SC', cursive
@@ -174,6 +196,10 @@ html
 .text_nixie
   font-family: 'Nixie One', Rockwell, serif
   text-align: center
+  
+.text_arvo
+  font-family: Arvo
+  font-weight: 400
   
 .text_right
   text-align: right
@@ -206,18 +232,30 @@ html
 .title_secondary
   font-family: 'Open Sans', sans-serif
   font-size: 24px
+  font-weight: bold
+  margin-bottom: 10px
   
 .title_small
   margin: 0 0 0 90px
   
 .title_caption_style
   background: white
-  padding: 20px 0
+  padding: 12px 0
   width: 940px
   text-align: center
   font-size: 30px
+  
+.title_2
+  display: inline-block
+  font-size: 30px
+  text-transform: uppercase
+  
+.subtitle_1
+  font-size: 18px
+  text-transform: uppercase
+  color: white
   font-family: Arvo
-  font-weight: 400
+  margin-left: 55px
   
 .width_160
   width: 160px
@@ -228,8 +266,8 @@ html
 .height_1000
   height: 1000px
   
-.height_885
-  height: 885px
+.height_868
+  height: 868px
   
 .height_240
   height: 240px
@@ -237,6 +275,8 @@ html
 .height_100
   height: 100px
   
+.height_70
+  height: 70px
   
 // color classes
 .blue_1
@@ -264,6 +304,9 @@ html
 .text_blue_green
   color: $blue-green
   
+.text_blue_3
+  color: $blue-3
+  
 .text_gray_dark
   color: $gray-dark
   
@@ -279,6 +322,9 @@ html
 .text_white
   color: white
   
+.text_white_dark
+  color: $white-dark
+  
 .text_center
   text-align: center
 
@@ -286,9 +332,18 @@ html
 .relative
   position: relative
   
+.block
+  display: block
+  
 // generic
+.zindex_10
+  z-index: 10
+
 .zindex_9
   z-index: 9
+
+.zindex_8
+  z-index: 8
   
 .font_size_48
   font-size: 48px
@@ -299,11 +354,29 @@ html
 .margin_20t
   margin-top: 20px
   
+.margin_25t
+  margin-top: 25px
+  
+.margin_34t
+  margin-top: 34px
+  
+.margin_40t
+  margin-top: 40px
+  
 .margin_60t
   margin-top: 60px
 
 .margin_70t
   margin-top: 70px
+  
+.margin_55l
+  margin-left: 55px
+  
+.margin_18t
+  margin-top: 18px
+  
+.margin_34b
+  margin-bottom: 34px
   
 .padding_70t
   padding-top: 70px
