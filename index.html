@@ -42,7 +42,7 @@
     <div class='slide_container blue_seafoam height_100'></div>
     <div class='green_forest zindex_10 relative'>
       <div class='slide_container'>
-        <div class='title_1 title_caption_style text_gray_dark text_arvo'>MARKETING MUST GENERATE LEADS & OPPORTUNITIES</div>
+        <div class='title_caption_style text_gray_dark text_arvo'>MARKETING MUST GENERATE LEADS & OPPORTUNITIES</div>
         <div class='text_white_dark text_1 margin_34t'>
           The Internet has put the Buyer in control.
         </div>

@@ -169,7 +169,10 @@ html {
 
 .text_arvo {
   font-family: Arvo;
-  font-weight: 400; }
+  font-weight: 400;
+  display: inline-block;
+  text-transform: uppercase;
+  vertical-align: top; }
 
 .text_right {
   text-align: right; }
