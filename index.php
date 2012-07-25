@@ -6,6 +6,7 @@
   <script src='js/jquery.scrollTo-1.4.2-min.js'></script>
   <script src='js/jquery.easing.1.3.js'></script>
   <script src='js/jquery.pitchdeck.js'></script>
+  <script src='js/jquery.stellar.min.js'></script>
   <script src='js/main.js'></script>
 </head>
 <div class='deck'>
@@ -26,43 +27,51 @@
       <a class='nav toplink' href='#slide_7' title='7'></a>
     </div>
   </div>
-  <div class='slide blue_seafoam margin_70t text_center' id='slide_1'>
-    <div class='text_gray_light text_nixie padding_300t relative font_size_48 zindex_9'>Building and Running Your Own Content Marketing Machine</div>
-    <div class='text_nixie relative zindex_9 text_gray_dark font_size_24 margin_60t'>- on -</div>
-    <img class='zindex_9 relative' src='images/kapost-logo.png' />
-    <img class='cloud' src='images/complex-cloud-1-lg.png' style='left: -220px; top: 0px' />
-    <img class='cloud' src='images/simple-cloud-1-lg.png' style='right: -276px; top: 490px' />
-    <img class='cloud' src='images/simple-cloud-2-lg.png' style='left: -150px; top: 728px' />
+  <div class='slide padding_70t zindex_9' id='slide_1'>
+    <div class='slide_container blue_seafoam text_center height_1000'>
+      <div class='text_gray_light text_nixie padding_230t relative font_size_48 zindex_9'>Building and Running Your Own Content Marketing Machine</div>
+      <div class='text_nixie relative zindex_9 text_gray_dark font_size_24 margin_60t'>- on -</div>
+      <img class='zindex_9 relative' src='images/kapost-logo.png' />
+      <img class='cloud' data-stellar-ratio='0.3' src='images/complex-cloud-1-lg.png' style='left: -220px; top: 0px' />
+      <img class='cloud' src='images/simple-cloud-1-lg.png' style='right: -276px; top: 420px' />
+      <img class='cloud' src='images/simple-cloud-2-lg.png' style='left: -150px; top: 775px' />
+    </div>
   </div>
-  <div class='slide_with_bleed green_forest'>
-    <div class='slide' id='slide_2'>
-      <div class='content_area_1'>
-        <div class='title_1 title_caption_style text_blue_green'>MARKETING MUST GENERATE LEADS & OPPORTUNITIES</div>
+  <div class='slide height_885 slide_with_bleed' id='slide_2'>
+    <div class='slide_container blue_seafoam height_100'></div>
+    <div class='green_forest zindex_9 relative'>
+      <div class='slide_container'>
+        <div class='title_1 title_caption_style text_gray_dark'>MARKETING MUST GENERATE LEADS & OPPORTUNITIES</div>
         <div class='text_white text_1'>
           The Internet has put the Buyer in control.
         </div>
         <div class='text_white text_1'>
-          <u>
+          <a href='http://www.google.com/url?q=http%3A%2F%2Fwww.eloqua.com%2Fgrande%2FGrande_Guide_To_Sales_Enablement.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEaiBO9eQ4WD-IOqYNHkrlGD4HA1Q' target='_blank'>
             <b>70%</b>
             of the Buying Cycle
-          </u>
-          is complete before Sales is contacted.
+          </a>
+          &nbsp;is complete before Sales is contacted.
         </div>
         <div class='text_white text_1'>
           Marketing must generate leads and nurture them into opportunities.
         </div>
       </div>
     </div>
+    <div class='slide_container blue_seafoam height_240'>
+      <img class='cloud' src='images/complex-cloud-2-sm.png' style='left: -70px; top: -135px' />
+    </div>
   </div>
-  <div class='slide blue_1' id='slide_3'>
-    <div class='content_area_1'>
-      <div class='title_1 title_small text_blue_green'>If it's a small title it could look like this</div>
-      <div class='list_centered text_green_forest'>
-        <div class='list_item_1'>Here are some short bullet points with a little text</div>
-        <div class='list_item_1'>More emphasis on marketing metrics</div>
-        <div class='list_item_1'>Ads becoming less effective</div>
-        <div class='list_item_1'>An SEO landscape that is moving toward more relevancy</div>
-        <div class='list_item_1'>Empty social media strategies</div>
+  <div class='slide' id='slide_3'>
+    <div class='slide_container blue_seafoam text_center height_1000'>
+      <div class='content_area_1'>
+        <div class='title_1 title_small text_blue_green'>If it's a small title it could look like this</div>
+        <div class='list_centered text_green_forest'>
+          <div class='list_item_1'>Here are some short bullet points with a little text</div>
+          <div class='list_item_1'>More emphasis on marketing metrics</div>
+          <div class='list_item_1'>Ads becoming less effective</div>
+          <div class='list_item_1'>An SEO landscape that is moving toward more relevancy</div>
+          <div class='list_item_1'>Empty social media strategies</div>
+        </div>
       </div>
     </div>
   </div>

@@ -5,5 +5,10 @@ class SlideShowManager
     })
 
 $(document).ready () ->
+  # $.stellar({
+  #   hideDistantElements: false
+  # })
+  
   new SlideShowManager
+
   

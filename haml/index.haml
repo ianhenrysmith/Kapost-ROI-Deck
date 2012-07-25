@@ -6,6 +6,7 @@
   %script{:src => "js/jquery.scrollTo-1.4.2-min.js" }
   %script{:src => "js/jquery.easing.1.3.js" }
   %script{:src => "js/jquery.pitchdeck.js" }
+  %script{:src => "js/jquery.stellar.min.js" }
   %script{:src => "js/main.js" }
 .deck
   #nav
@@ -23,41 +24,46 @@
       %a.nav.toplink{:href=>"#slide_6", :title => "6"}=""
       .nav_spacer                                  
       %a.nav.toplink{:href=>"#slide_7", :title => "7"}=""
-  #slide_1.slide.blue_seafoam.margin_70t.text_center
+  #slide_1.slide.padding_70t.zindex_9
+    .slide_container.blue_seafoam.text_center.height_1000
     
-    .text_gray_light.text_nixie.padding_300t.relative.font_size_48.zindex_9 Building and Running Your Own Content Marketing Machine
+      .text_gray_light.text_nixie.padding_230t.relative.font_size_48.zindex_9 Building and Running Your Own Content Marketing Machine
     
-    .text_nixie.relative.zindex_9.text_gray_dark.font_size_24.margin_60t - on -
+      .text_nixie.relative.zindex_9.text_gray_dark.font_size_24.margin_60t - on -
     
-    %img{:src => "images/kapost-logo.png", :class => "zindex_9 relative"}
+      %img{:src => "images/kapost-logo.png", :class => "zindex_9 relative"}
   
-    %img{:src => "images/complex-cloud-1-lg.png", :style => "left: -220px; top: 0px", :class => "cloud"}
-    %img{:src => "images/simple-cloud-1-lg.png", :style => "right: -276px; top: 490px", :class => "cloud"}
-    %img{:src => "images/simple-cloud-2-lg.png", :style => "left: -150px; top: 728px", :class => "cloud"}
-    
-  .slide_with_bleed.green_forest  
-    #slide_2.slide
-      .content_area_1
-        .title_1.title_caption_style.text_blue_green MARKETING MUST GENERATE LEADS & OPPORTUNITIES
+      %img{:src => "images/complex-cloud-1-lg.png", :style => "left: -220px; top: 0px", :class => "cloud", :"data-stellar-ratio" => 0.3}
+      %img{:src => "images/simple-cloud-1-lg.png", :style => "right: -276px; top: 420px", :class => "cloud"}
+      %img{:src => "images/simple-cloud-2-lg.png", :style => "left: -150px; top: 775px", :class => "cloud"}
+  
+  #slide_2.slide.height_885.slide_with_bleed
+    .slide_container.blue_seafoam.height_100
+    .green_forest.zindex_9.relative
+      .slide_container
+        .title_1.title_caption_style.text_gray_dark MARKETING MUST GENERATE LEADS & OPPORTUNITIES
         .text_white.text_1
           The Internet has put the Buyer in control.
         .text_white.text_1
-          %u
+          %a{:href => "http://www.google.com/url?q=http%3A%2F%2Fwww.eloqua.com%2Fgrande%2FGrande_Guide_To_Sales_Enablement.html&sa=D&sntz=1&usg=AFQjCNEaiBO9eQ4WD-IOqYNHkrlGD4HA1Q", :target => "_blank"}
             %b 70%
             of the Buying Cycle
-          is complete before Sales is contacted.
+          &nbsp;is complete before Sales is contacted.
         .text_white.text_1
           Marketing must generate leads and nurture them into opportunities.
+    .slide_container.blue_seafoam.height_240
+      %img{:src => "images/complex-cloud-2-sm.png", :style => "left: -70px; top: -135px", :class => "cloud"}
   
-  #slide_3.slide.blue_1
-    .content_area_1
-      .title_1.title_small.text_blue_green="If it's a small title it could look like this"
-      .list_centered.text_green_forest
-        .list_item_1="Here are some short bullet points with a little text"
-        .list_item_1="More emphasis on marketing metrics"
-        .list_item_1="Ads becoming less effective"
-        .list_item_1="An SEO landscape that is moving toward more relevancy"
-        .list_item_1="Empty social media strategies"
+  #slide_3.slide
+    .slide_container.blue_seafoam.text_center.height_1000
+      .content_area_1
+        .title_1.title_small.text_blue_green="If it's a small title it could look like this"
+        .list_centered.text_green_forest
+          .list_item_1="Here are some short bullet points with a little text"
+          .list_item_1="More emphasis on marketing metrics"
+          .list_item_1="Ads becoming less effective"
+          .list_item_1="An SEO landscape that is moving toward more relevancy"
+          .list_item_1="Empty social media strategies"
 
   .slide_with_bleed.green_aqua
     #slide_4.slide.slide_short
