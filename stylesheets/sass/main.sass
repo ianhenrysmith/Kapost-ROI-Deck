@@ -8,13 +8,16 @@ $blue-1: #b9e3ed
 $blue-2: #0371b8
 $blue-3: #2B8CA6
 $blue-sky: #a1d6e4
-$blue-light :#79a8c8
+$blue-light: #79a8c8
+$blue-marine: #0072bb
+$blue-dark: #052338
 
 $gray: #c0c0c0
 $gray-dark: #666
 $gray-light: #333
 
 $green-aqua: #00baa7
+$green-light: #65C1BF
 $green-forest: #26424B
 
 $orange-burnt: #c4701e
@@ -55,6 +58,7 @@ html
   text-align: center
   text-transform: uppercase
   padding: 0
+  font-size: 30px
   
 .caption_area
   padding: 32px 0 96px 0
@@ -165,6 +169,32 @@ html
     line-height: 28px
     text-decoration: underline
     color: $blue-3
+    
+#slide_4
+  .green_aqua
+    padding: 33px 0 20px
+    vertical-align: top
+
+#slide_5
+  .marine_blue
+    padding: 33px 0 20px
+    vertical-align: top
+    
+#slide_6
+  .green_forest
+    padding: 90px 0 32px
+  .text_open_sans
+    line-height: 28px
+    padding-left: 60px
+  .stripe
+    padding: 6px 0 6px 80px
+    background-color: $green-light
+    width: 600px
+    
+#slide_7
+  .green_aqua
+    padding: 43px 0 10px
+
   
 .table_1
   margin: 0 50px 0 82px
@@ -200,9 +230,11 @@ html
 .text_arvo
   font-family: Arvo
   font-weight: 400
-  display: inline-block
   text-transform: uppercase
   vertical-align: top
+  
+.text_open_sans
+  font-family: 'Open Sans', sans-serif
   
 .text_right
   text-align: right
@@ -260,6 +292,15 @@ html
   font-family: Arvo
   margin-left: 55px
   
+.caption
+  margin-top: 9px
+  margin-right: 150px
+  text-align: right
+  text-transform: uppercase
+  color: white
+  font-size: 18px
+  font-family: 'Nixie One', Rockwell, serif
+  
 .width_160
   width: 160px
   
@@ -268,9 +309,18 @@ html
   
 .height_1000
   height: 1000px
+
+.height_893
+  height: 893px
   
 .height_868
   height: 868px
+  
+.height_646
+  height: 646px
+
+.height_625
+  height: 625px
   
 .height_240
   height: 240px
@@ -300,6 +350,9 @@ html
 .green_forest
   background-color: $green-forest
   
+.marine_blue
+  background-color: $blue-marine
+  
 .white
   background-color: white
   
@@ -309,6 +362,9 @@ html
   
 .text_blue_3
   color: $blue-3
+  
+.text_blue_dark
+  color: $blue-dark
   
 .text_gray_dark
   color: $gray-dark
@@ -330,6 +386,9 @@ html
   
 .text_center
   text-align: center
+  
+.text_underline
+  text-decoration: underline
 
 // position
 .relative
@@ -339,6 +398,9 @@ html
   display: block
   
 // generic
+.italic
+  font-style: italic
+
 .zindex_10
   z-index: 10
 
@@ -347,6 +409,12 @@ html
 
 .zindex_8
   z-index: 8
+
+.zindex_7
+  z-index: 7
+    
+.zindex_6
+  z-index: 6
   
 .font_size_48
   font-size: 48px
@@ -354,11 +422,29 @@ html
 .font_size_24
   font-size: 24px
   
+.font_size_20
+  font-size: 20px
+  
+.margin_n20t
+  margin-top: -20px
+
+.margin_10t
+  margin-top: 10px
+  
+.margin_18t
+  margin-top: 18px
+  
 .margin_20t
   margin-top: 20px
   
 .margin_25t
   margin-top: 25px
+  
+.margin_28t
+  margin-top: 28px
+
+.margin_30t
+  margin-top: 30px
   
 .margin_34t
   margin-top: 34px
@@ -372,14 +458,20 @@ html
 .margin_70t
   margin-top: 70px
   
+.margin_103t
+  margin-top: 103px
+  
 .margin_55l
   margin-left: 55px
   
-.margin_18t
-  margin-top: 18px
-  
 .margin_34b
   margin-bottom: 34px
+
+.padding_20t
+  padding-top: 20px
+  
+.padding_46t
+  padding-top: 46px
   
 .padding_70t
   padding-top: 70px

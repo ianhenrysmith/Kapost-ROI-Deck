@@ -25,6 +25,12 @@
       <a class='nav toplink' href='#slide_6' title='6'></a>
       <div class='nav_spacer'></div>
       <a class='nav toplink' href='#slide_7' title='7'></a>
+      <div class='nav_spacer'></div>
+      <a class='nav toplink' href='#slide_8' title='8'></a>
+      <div class='nav_spacer'></div>
+      <a class='nav toplink' href='#slide_9' title='9'></a>
+      <div class='nav_spacer'></div>
+      <a class='nav toplink' href='#slide_10' title='10'></a>
     </div>
   </div>
   <div class='slide padding_70t zindex_9' id='slide_1'>
@@ -137,35 +143,103 @@
       </table>
       <img class='cloud' src='images/simple-cloud-3-sm.png' style='left: -35px; top: 760px' />
       <img class='cloud' src='images/simple-cloud-2-sm.png' style='left: 400px; top: 815px' />
-      <img class='cloud zindex_9' src='images/complex-cloud-1-lg.png' style='left: -45px; top: 1015px' />
+      <img class='cloud zindex_9' src='images/complex-cloud-1-lg.png' style='left: -45px; top: 1025px' />
     </div>
   </div>
   <div class='slide slide_with_bleed' id='slide_4'>
     <div class='slide_container blue_seafoam height_70'></div>
     <div class='green_aqua zindex_10 relative'>
-      <div class='callout_awesome title_callout text_white'>
-        BUT MOST MARKETERS STRUGGLE WITH
+      <div class='text_white text_arvo callout_awesome'>
+        BUT
+        <b>MOST</b>
+        MARKETERS STRUGGLE WITH
         <br />
         CONTENT MARKETING
       </div>
-      All Marketers know that they need to become publishers, but few are doing it well.
+      <div class='text_blue_green title_secondary margin_10t text_center font_size_20 italic'>All Marketers know that they need to become publishers, but few are doing it well.</div>
+    </div>
+    <div class='slide_container blue_seafoam text_center height_646'>
+      <img class='zindex_10 relative' src='images/aberdeen-graph.png' style='' />
+      <div class='caption'>- SOURCE: ABERDEEN</div>
+      <img class='cloud zindex_9' src='images/mini-machine-1.png' style='left: 410px; top: 337px' />
+      <img class='cloud zindex_10' src='images/complex-cloud-3-sm.png' style='left: 400px; top: 442px' />
     </div>
   </div>
-  <div class='slide blue_sky' id='slide_5'>
-    <div class='title_area_1'>
-      <div class='title_large text_gray_dark'>Also makes for a pretty good large title</div>
-      <div class='title_secondary text_orange_burnt text_right'>... yeah?</div>
-    </div>
-    <div class='image_area_1 width_300'>
-      <img src='images/tcm.png' />
-      <div class='caption_area text_green_forest'>
-        <div class='caption_title'>Caption for a graphic</div>
-        <div class='caption_text'>(pretend it's another graphic)</div>
+  <div class='slide slide_with_bleed' id='slide_5'>
+    <div class='slide_container blue_seafoam height_70'></div>
+    <div class='marine_blue zindex_9 relative'>
+      <div class='text_white text_arvo callout_awesome'>
+        CONTENT MARKETING TAKES
+        <br />
+        PROCESS, TOOLS, PRACTICES TO
+        <b>SUCCEED</b>
       </div>
+      <div class='text_blue_dark title_secondary margin_10t text_center font_size_20 italic'>Like any business operation (e.g. CRM for Sales), content marketing requires processes, best practices & tools</div>
+    </div>
+    <div class='slide_container blue_seafoam text_center height_625'>
+      <img class='margin_103t' src='images/aberdeen-stat.png' />
+      <div class='caption margin_28t'>- SOURCE: ABERDEEN</div>
+      <img class='cloud' src='images/simple-cloud-1-lg-dark.png' style='left: -395px; top: 272px' />
+      <img class='cloud zindex_6' src='images/complex-cloud-3-sm-reverse.png' style='left: -220px; top: 410px' />
+      <img class='cloud zindex_7' src='images/mini-machine-2.png' style='left: 244px; top: 252px' />
+      <img class='cloud zindex_8' src='images/simple-cloud-2-sm.png' style='left: 420px; top: 544px' />
+      <img class='cloud zindex_9' src='images/complex-cloud-4-sm.png' style='left: 660px; top: 455px' />
+    </div>
+  </div>
+  <div class='slide slide_with_bleed' id='slide_6'>
+    <div class='green_forest zindex_10 relative'>
+      <div class='text_white text_arvo callout_awesome'>
+        YOU CAN BUILD YOUR OWN
+        <br />
+        CONTENT MARKETING MACHINE!
+      </div>
+    </div>
+    <div class='slide_container blue_seafoam height_893'>
+      <div class='text_open_sans font_size_24 text_blue_3 padding_46t'>
+        The Best Practices & Processes behind
+        <br />
+        Content Marketing have been identified.
+      </div>
+      <div class='text_open_sans font_size_24 text_blue_3 margin_20t'>
+        You can learn about them and
+        <br />
+        how to apply them through this
+        <br />
+        Kapost guide -
+      </div>
+      <div class='text_blue_green stripe text_underline text_open_sans font_size_24 margin_30t'>
+        "How to Build and Operate a
+        <br />
+        Content Marketing Machine"
+      </div>
+      <img class='cloud' src='images/complex-cloud-2-sm-dark.png' style='left: -145px; top: 347px' />
+      <img class='cloud zindex_6' src='images/content-marketing-machine.png' style='left: 404px; top: 0px' />
+      <img class='cloud zindex_7' src='images/complex-cloud-3-sm-reverse.png' style='left: -40px; top: 537px' />
+      <img class='cloud zindex_7' src='images/complex-cloud-4-sm.png' style='left: 783px; top: 608px' />
+      <img class='cloud zindex_7' src='images/simple-cloud-2-sm.png' style='left: 297px; top: 808px' />
+    </div>
+  </div>
+  <div class='slide slide_with_bleed' id='slide_7'>
+    <div class='slide_container blue_seafoam height_70'></div>
+    <div class='green_aqua zindex_10 relative'>
+      <div class='text_white text_arvo callout_awesome' style='line-height: 16px'>
+        <img class='margin_n20t' src='images/kapost-logo-sm.png' />
+        IS THE FOUNDATION OF YOUR
+        <br />
+        CONTENT MARKETING MACHINE
+      </div>
+      <div class='text_blue_green title_secondary padding_20t text_center font_size_20 italic'>
+        Kapost organizes content marketing as a structured business process,
+        <br />
+        enforcing best practices and optimizing results
+      </div>
+    </div>
+    <div class='slide_container blue_seafoam height_868'>
+      <img class='cloud' src='images/machine-foundation.png' style='left: -215px; top: 0px' />
     </div>
   </div>
   <div class='slide_with_bleed gray'>
-    <div class='slide' id='slide_6'>
+    <div class='slide' id='slide_16'>
       <div class='content_area_1'>
         <table class='table_1'>
           <td class='width_160'>
