@@ -35,12 +35,15 @@
   </div>
   <div class='slide padding_70t zindex_9' id='slide_1'>
     <div class='slide_container blue_seafoam text_center height_1000'>
-      <div class='text_gray_light text_nixie padding_230t relative font_size_48 zindex_9'>Building and Running Your Own Content Marketing Machine</div>
-      <div class='text_nixie relative zindex_9 text_gray_dark font_size_24 margin_60t'>- on -</div>
-      <img class='zindex_9 relative' src='images/kapost-logo.png' />
-      <img class='cloud' data-stellar-horizontal-offset='120' data-stellar-ratio='0.7' src='images/complex-cloud-1-lg.png' style='left: -220px; top: 0px' />
+      <img class='margin_94t' src='images/kapost-logo-med.png' />
+      <div class='text_blue_3 text_arvo padding_70t relative font_size_48 zindex_9'>Building &amp; Operating</div>
+      <div class='text_arvo relative zindex_9 text_dark font_size_38 italic padding_13t'>- Your Own -</div>
+      <div class='text_blue_3 text_arvo relative font_size_48 zindex_9 bold padding_15t'>Content Marketing Machine</div>
+      <img class='cloud' src='images/complex-cloud-1-lg.png' style='left: -226px; top: 100px' />
+      <img class='cloud' src='images/simple-cloud-2-sm.png' style='left: 384px; top: 157px' />
+      <img class='cloud' src='images/simple-cloud-1-lg.png' style='right: -257px; top: 246px' />
+      <img class='cloud' src='images/simple-cloud-3-sm.png' style='left: 200px; top: 355px' />
       <!-- %img{:src => "images/simple-cloud-1-lg.png", :style => "right: -276px; top: 420px", :class => "cloud", :"data-stellar-ratio" => 1.3, :"data-stellar-horizontal-offset" => "-1220", :"data-stellar-vertical-offset" => "40"} -->
-      <img class='cloud' data-stellar-horizontal-offset='130' data-stellar-ratio='0.8' data-stellar-vertical-offset='40' src='images/simple-cloud-1-lg.png' style='' />
       <img class='cloud' src='images/simple-cloud-2-lg.png' style='left: -150px; top: 775px' />
     </div>
   </div>
@@ -234,55 +237,79 @@
         enforcing best practices and optimizing results
       </div>
     </div>
-    <div class='slide_container blue_seafoam height_868'>
-      <img class='cloud' src='images/machine-foundation.png' style='left: -215px; top: 0px' />
+    <div class='slide_container blue_seafoam height_800'>
+      <img class='cloud zindex_6' src='images/machine-foundation.png' style='left: -215px; top: 0px' />
+      <img class='cloud zindex_7' src='images/video.png' style='left: 630px; top: 370px' />
+      <img class='cloud' src='images/complex-cloud-3-sm.png' style='left: 700px; top: 67px' />
+      <img class='cloud' src='images/complex-cloud-3-sm.png' style='left: -18px; top: 407px' />
+      <img class='cloud zindex_7' src='images/simple-cloud-2-mini.png' style='left: 642px; top: 471px' />
+      <img class='cloud zindex_9' src='images/complex-cloud-3-sm.png' style='left: -216px; top: 712px' />
+      <img class='cloud zindex_9' src='images/complex-cloud-4-sm.png' style='left: 587px; top: 712px' />
     </div>
   </div>
-  <div class='slide_with_bleed gray'>
-    <div class='slide' id='slide_16'>
-      <div class='content_area_1'>
-        <table class='table_1'>
-          <td class='width_160'>
-            <div class='title_1 text_blue_green'>Fast, easy adoption of Kapost:</div>
-          </td>
-          <td>
-            <div class='text_green_forest'>
-              <div class='list_item_2'>
-                <b>Saas</b>
-                (Software-as-a-service)
-              </div>
-              <div class='list_item_2'>
-                <b>Easy to use,</b>
-                easy to deploy
-              </div>
-              <div class='list_item_2'>
-                <b>Quickly</b>
-                imports your current data & never holds your data hostage... ever.
-              </div>
-              <div class='list_item_2'>
-                <b>Plus</b>
-                you get a 30 day trial to kick the tires
-              </div>
-            </div>
-          </td>
-        </table>
+  <div class='slide' id='slide_8'>
+    <div class='slide_container blue_seafoam text_center height_907'>
+      <div class='title_2 text_blue_3 text_arvo margin_27b margin_108t relative zindex_10'>
+        Adopt Kapost
+        <b>quickly</b>
+        &amp;
+        <b>easily</b>
+      </div>
+      <div class='text_green_forest zindex_6 relative'>
+        <div class='list_item_2'>
+          <b class='italic'>Software as a Service</b>
+          no IT involved
+        </div>
+        <div class='list_item_2'>
+          30-day
+          <b class='italic'>free</b>
+          trial
+        </div>
+        <div class='list_item_2'>
+          <b class='italic'>Quick start &amp; training</b>
+          included in trial
+        </div>
+        <div class='list_item_2'>
+          Intuitive user interface
+        </div>
+        <div class='list_item_2'>
+          Automated import of existing data
+        </div>
+        <div class='list_item_2'>
+          No lock-in: export your data
+          <b class='italic'>anytime</b>
+        </div>
+      </div>
+      <img class='cloud' src='images/simple-cloud-2-lg-dark.png' style='left: -80px; top: 506px' />
+      <img class='cloud' src='images/simple-cloud-2-sm.png' style='left: 525px; top: 610px' />
+      <img class='cloud' src='images/simple-cloud-3-sm.png' style='left: 138px; top: 686px' />
+    </div>
+  </div>
+  <div class='slide slide_with_bleed' id='slide_9'>
+    <div class='slide_container blue_seafoam height_70'>
+      <img class='cloud zindex_8' src='images/complex-cloud-3-sm.png' style='left: 510px; top: 25px' />
+      <img class='cloud zindex_8' src='images/simple-cloud-1-lg.png' style='left: -71px; top: 79px' />
+    </div>
+    <div class='green_forest zindex_10 relative'>
+      <div class='text_white text_arvo callout_awesome line_height_45'>
+        Leading content marketing operations
+      </div>
+      <div class='text_white text_arvo callout_awesome'>
+        <b class='inline_block vertical_middle margin_n40t'>run on</b>
+        <img class='' src='images/kapost-logo-sm-white.png' />
+      </div>
+      <div class='text_green_aqua_dark title_secondary margin_10t text_center font_size_20 italic'>
+        Watch Content Marketing leaders from organizations such as Intel, Eloqua, and Trip Advisor
+        <br />
+        discuss best practices and how they run their machines on Kapost
       </div>
     </div>
-  </div>
-  <div class='slide white slide_short' id='slide_7'>
-    <div class='content_area_2'>
-      <table class='table_contact'>
-        <td class='text_amatic'>Contact</td>
-        <td>(kp logo)</td>
-        <td>
-          <p>
-            <a class='link_style_1' href='http://kapost.com'>Kapost.com</a>
-          </p>
-          <p>
-            <a class='link_style_1' href='mailto:sales@kapost.com'>sales@kapost.com</a>
-          </p>
-        </td>
-      </table>
+    <div class='slide_container blue_seafoam text_center height_907'>
+      <img class='cloud zindex_9' src='images/girder-left.png' style='left: -140px; top: 0px' />
+      <img class='cloud' src='images/girder-right.png' style='right: -140px; top: 0px' />
+      <img class='cloud' src='images/complex-cloud-1-lg.png' style='left: -194px; top: 350px' />
+      <img class='cloud' src='images/complex-cloud-3-sm.png' style='right: -106px; top: 352px' />
+      <a class='text_blue_3 text_underline text_open_sans italic font_size_18 bold' href='http://kapost.com/#customers' style='position: absolute; top: 647px; right: 40px' target='_blank'>See a list of other Kapost customers</a>
     </div>
   </div>
 </div>

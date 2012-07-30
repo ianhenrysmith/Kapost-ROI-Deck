@@ -18,11 +18,13 @@ $gray-light: #333
 
 $green-aqua: #00baa7
 $green-light: #65C1BF
+$green-aqua-dark: #00BBA7
 $green-forest: #26424B
 
 $orange-burnt: #c4701e
 
 $white-dark: #e0e0e0
+$dark: #1A243B
 
 // base styles
 body
@@ -106,7 +108,7 @@ html
 .list_item_2
   font-family: 'Open Sans', sans-serif
   font-size: 26px
-  line-height: 64px
+  line-height: 69px
   
 .nav
   background: url(../../images/nav_btns.png) no-repeat -282px 0
@@ -155,6 +157,10 @@ html
   padding-left: 55px
   margin-top: 8px
   
+#slide_1
+  .text_arvo
+    text-transform: capitalize
+  
 #slide_2
   .green_forest
     padding: 40px 0 85px
@@ -194,6 +200,10 @@ html
 #slide_7
   .green_aqua
     padding: 43px 0 10px
+    
+#slide_9
+  .green_forest
+    padding: 20px 0 1px
 
   
 .table_1
@@ -309,12 +319,18 @@ html
   
 .height_1000
   height: 1000px
+  
+.height_907
+  height: 907px
 
 .height_893
   height: 893px
   
 .height_868
   height: 868px
+
+.height_800
+  height: 800px
   
 .height_646
   height: 646px
@@ -357,6 +373,9 @@ html
   background-color: white
   
 // text
+.text_green_aqua_dark
+  color: $green-aqua-dark
+
 .text_blue_green
   color: $blue-green
   
@@ -365,6 +384,9 @@ html
   
 .text_blue_dark
   color: $blue-dark
+  
+.text_dark
+  color: $dark
   
 .text_gray_dark
   color: $gray-dark
@@ -389,6 +411,9 @@ html
   
 .text_underline
   text-decoration: underline
+  
+.line_height_45
+  line-height: 45px
 
 // position
 .relative
@@ -397,9 +422,18 @@ html
 .block
   display: block
   
+.inline_block
+  display: inline-block
+  
 // generic
+.vertical_middle
+  vertical-align: middle
+
 .italic
   font-style: italic
+  
+.bold
+  font-weight: bold
 
 .zindex_10
   z-index: 10
@@ -419,11 +453,20 @@ html
 .font_size_48
   font-size: 48px
   
+.font_size_38
+  font-size: 38px
+  
 .font_size_24
   font-size: 24px
   
 .font_size_20
   font-size: 20px
+  
+.font_size_18
+  font-size: 18px
+  
+.margin_n40t
+  margin-top: -40px
   
 .margin_n20t
   margin-top: -20px
@@ -458,14 +501,29 @@ html
 .margin_70t
   margin-top: 70px
   
+.margin_94t
+  margin-top: 94px
+  
 .margin_103t
   margin-top: 103px
+  
+.margin_108t
+  margin-top: 108px
   
 .margin_55l
   margin-left: 55px
   
 .margin_34b
   margin-bottom: 34px
+  
+.margin_27b
+  margin-bottom: 27px
+
+.padding_13t
+  padding-top: 13px
+
+.padding_15t
+  padding-top: 15px
 
 .padding_20t
   padding-top: 20px
