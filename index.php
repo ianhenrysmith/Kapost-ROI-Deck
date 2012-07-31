@@ -326,38 +326,123 @@
       </div>
       <div class='text_blue_dark title_secondary margin_10t text_center font_size_20 italic'>Enter information about your marketing operation to calculate your Return on Investment from Kapost</div>
     </div>
-    <div class='slide_container blue_seafoam height_700 text_center'>
-      <img class='cloud' src='images/calculator.png' style='left: 30px; top: 28px' />
-      <div class='input_container'>
-        <label for='revenue_goal'>New Revenue Goal:</label>
-        <br />
-        <input id='revenue_goal' name='revenue_goal' />
+    <div class='slide_container blue_seafoam text_center'>
+      <div id='calculator'>
+        <img class='cloud' src='images/calculator.png' style='left: 30px; top: 28px' />
+        <div class='input_container'>
+          <label for='revenue_goal'>New Revenue Goal:</label>
+          <br />
+          <input id='revenue_goal' name='revenue_goal' />
+        </div>
+        <div class='input_container'>
+          <label for='average_revenue'>Average Revenue per Sale:</label>
+          <br />
+          <input id='average_revenue' name='average_revenue' />
+        </div>
+        <div class='input_container'>
+          <label for='revenue_marketing'>% Revenue from Marketing:</label>
+          <br />
+          <input id='revenue_marketing' name='revenue_marketing' placeholder='35%' />
+        </div>
+        <div class='input_container'>
+          <label for='conversion'>% Conversion Visitor/Touch to Lead:</label>
+          <br />
+          <input id='conversion' name='conversion' placeholder='2%' />
+        </div>
+        <div class='input_container'>
+          <label for='lead'>% Lead to Customer:</label>
+          <br />
+          <input id='lead' name='lead' placeholder='.25%' />
+        </div>
+        <button class='funnel_it disabled' id='funnel_it' name='funnel_it'>
+          See your Funnel
+          <span class='arrow'></span>
+        </button>
+        <img class='dots' src='images/dots.png' />
       </div>
-      <div class='input_container'>
-        <label for='average_revenue'>Average Revenue per Sale:</label>
-        <br />
-        <input id='average_revenue' name='average_revenue' />
+      <div id='funnel_1'>
+        <div class='text_green_forest text_arvo font_size_30'>
+          YOUR
+          <b>CURRENT</b>
+          FUNNEL
+        </div>
+        <div class='conversion leads'>
+          <div class='value'></div>
+          <div class='label'>Conversion</div>
+        </div>
+        <div class='conversion customers'>
+          <div class='value'></div>
+          <div class='label'>Conversion</div>
+        </div>
+        <div class='funnel funnel_1'>
+          <div class='value visitors'></div>
+          <div class='label'>Visitors / Touches</div>
+          <div class='value leads'></div>
+          <div class='label'>Leads</div>
+          <div class='value customers'></div>
+          <div class='label'>Customers</div>
+        </div>
+        <div class='funnel_value'></div>
+        <div class='funnel_label'>New Revenue</div>
+        <button class='rev_it' id='rev_it' name='rev_it'>
+          Rev it up on the Machine!
+        </button>
+        <img class='dots' src='images/dots.png' />
+        <img class='cloud' src='images/gears.png' style='right: 30px; top: 668px' />
       </div>
-      <div class='input_container'>
-        <label for='revenue_marketing'>% Revenue from Marketing:</label>
-        <br />
-        <input id='revenue_marketing' name='revenue_marketing' placeholder='35%' />
+      <div id='funnel_2'>
+        <div class='text_green_forest text_arvo font_size_30'>
+          YOUR FUNNEL
+          <b>ON THE MACHINE</b>
+        </div>
+        <div class='text_blue_5 title_secondary italic font_size_18 margin_10t line_height_22'>
+          The improvements your funnel would enjoy from
+          <br />
+          the Content Marketing Machine -
+        </div>
+        <div class='funnel_description'>
+          Baseline
+          <span>Machinized</span>
+        </div>
+        <div class='funnel_description gains'>
+          Your
+          <br />
+          Content
+          <br />
+          Marketing
+          <br />
+          Machine
+          <b>ROI</b>
+        </div>
+        <div class='gains visitors'>
+          <div class='value'></div>
+          <div class='label'>More Visitors</div>
+        </div>
+        <div class='gains leads'>
+          <div class='value'></div>
+          <div class='label'>More Leads</div>
+        </div>
+        <div class='gains customers'>
+          <div class='value'></div>
+          <div class='label'>More Customers</div>
+        </div>
+        <div class='gains revenue'>
+          <div class='value'></div>
+          <div class='label'>More Revenue</div>
+        </div>
+        <div class='funnel funnel_2'>
+          <div class='value visitors'></div>
+          <div class='label'>Visitors / Touches</div>
+          <div class='value leads'></div>
+          <div class='label'>Leads</div>
+          <div class='value customers'></div>
+          <div class='label'>Customers</div>
+        </div>
+        <div class='funnel_value'></div>
+        <div class='funnel_label'>New Revenue</div>
       </div>
-      <div class='input_container'>
-        <label for='conversion'>% Conversion Visitor/Touch to Lead:</label>
-        <br />
-        <input id='conversion' name='conversion' placeholder='2%' />
-      </div>
-      <div class='input_container'>
-        <label for='lead'>% Lead to Customer:</label>
-        <br />
-        <input id='lead' name='lead' placeholder='.25%' />
-      </div>
-      <button class='funnel_it disabled' id='funnel_it' name='funnel_it'>
-        See your Funnel
-        <span class='arrow'></span>
-      </button>
     </div>
+    <div class='slide_container blue_seafoam height_70'></div>
   </div>
   <div class='slide slide_with_bleed height_1600' id='slide_11'>
     <div class='slide_container blue_seafoam height_189'>
@@ -388,7 +473,7 @@
         and share this deck:
       </div>
       <div class='share'>
-        <a class='twitter-share-button' data-count='vertical' data-size='large' data-via='' href='https://twitter.com/share'>Tweet</a>
+        <a class='twitter-share-button' data-count='vertical' data-via='' href='https://twitter.com/share'>Tweet</a>
         <script type='text/javascript'>
           //<![CDATA[
             !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs")

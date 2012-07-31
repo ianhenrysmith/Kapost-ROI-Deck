@@ -8,6 +8,7 @@ $blue-1: #b9e3ed
 $blue-2: #0371b8
 $blue-3: #2B8CA6
 $blue-4: #00426D
+$blue-5: #005388
 $blue-sky: #a1d6e4
 $blue-light: #79a8c8
 $blue-marine: #0072bb
@@ -58,6 +59,9 @@ html
 
 
 // modules
+.IN-widget
+  margin-top: 10px
+
 .callout_awesome
   text-align: center
   text-transform: uppercase
@@ -276,6 +280,137 @@ button
   &.disabled
     color: $gray-1
     
+.dots
+  display: block
+  margin: 14px auto 24px
+    
+.funnel
+  margin: 0 auto
+  &.funnel_1
+    background: url("../../images/funnel-1.png") no-repeat top left
+    width: 609px
+    height: 478px
+    margin-top: 30px
+  .value
+    font-family: 'Lato', sans-serif
+    font-size: 40px
+    color: white
+    font-weight: 300
+    padding-top: 56px
+    .new
+      font-weight: 700
+      margin-left: 60px
+  .label
+    font-family: "Open Sans", sans-serif
+    font-style: italic
+    font-size: 18px
+    color: white
+    font-weight: 700
+    margin-top: 23px
+  &.funnel_2
+    background: url("../../images/funnel-2.png") no-repeat top left
+    width: 693px
+    height: 471px
+    margin-top: 13px
+    
+#calculator
+  height: 656px
+
+#funnel_1
+  position: relative
+  display: none
+  height: 896px
+  .funnel_value
+    font-family: 'Lato', sans-serif
+    font-size: 48px
+    color: $green-forest
+    font-weight: 300
+    margin-top: 23px
+  .funnel_label
+    font-family: "Open Sans", sans-serif
+    font-style: italic
+    font-size: 18px
+    color: $green-forest
+    font-weight: 700
+    margin-top: 18px
+    margin-bottom: 42px
+  .conversion
+    position: absolute
+    left: 100px
+    .value
+      font-family: 'Lato', sans-serif
+      font-size: 24px
+      font-weight: 300
+      color: $blue-5
+    .label
+      font-family: "Open Sans", sans-serif
+      font-style: italic
+      font-size: 14px
+      font-weight: 600
+      color: $blue-5
+    &.leads
+      top: 206px
+    &.customers
+      top: 362px
+      
+#funnel_2
+  position: relative
+  display: none
+  height: 760px
+  .funnel_description
+    font-family: "Open Sans", sans-serif
+    font-style: italic
+    font-size: 18px
+    color: white
+    font-weight: 700
+    margin-top: 30px
+    span
+      padding-left: 130px
+  .funnel_value
+    font-family: 'Lato', sans-serif
+    font-size: 48px
+    color: $green-forest
+    font-weight: 300
+    margin-top: 35px
+    .new
+      font-weight: 700
+      margin-left: 20px
+  .funnel_label
+    font-family: "Open Sans", sans-serif
+    font-style: italic
+    font-size: 18px
+    color: $green-forest
+    font-weight: 700
+    margin-top: 18px
+    margin-bottom: 42px    
+  .gains
+    right: 0px
+    position: absolute
+    width: 200px
+    &.funnel_description
+      top: 20px
+    .value
+      font-family: 'Lato', sans-serif
+      font-size: 36px
+      font-weight: 700
+      color: $blue-4
+    .label
+      font-family: "Open Sans", sans-serif
+      font-style: italic
+      font-size: 14px
+      font-weight: 700
+      color: $blue-5
+    &.visitors
+      top: 218px
+    &.leads
+      top: 373px
+    &.customers
+      top: 530px
+    &.revenue
+      top: 674px
+      font-size: 30px
+      font-weight: 900
+    
 .contact
   margin-top: 130px
   margin-left: 290px
@@ -429,9 +564,6 @@ button
 .height_789
   height: 789px
   
-.height_700
-  height: 700px
-  
 .height_646
   height: 646px
 
@@ -485,6 +617,9 @@ button
 .text_blue_3
   color: $blue-3
   
+.text_blue_5
+  color: $blue-5
+  
 .text_blue_dark
   color: $blue-dark
   
@@ -517,6 +652,9 @@ button
   
 .line_height_45
   line-height: 45px
+  
+.line_height_22
+  line-height: 22px
 
 // position
 .relative
@@ -558,6 +696,9 @@ button
   
 .font_size_38
   font-size: 38px
+  
+.font_size_30
+  font-size: 30px
   
 .font_size_24
   font-size: 24px

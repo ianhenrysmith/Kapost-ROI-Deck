@@ -25,6 +25,9 @@ html {
   overflow-x: hidden;
   width: 100%; }
 
+.IN-widget {
+  margin-top: 10px; }
+
 .callout_awesome {
   text-align: center;
   text-transform: uppercase;
@@ -233,6 +236,137 @@ button {
   button.disabled {
     color: #7195aa; }
 
+.dots {
+  display: block;
+  margin: 14px auto 24px; }
+
+.funnel {
+  margin: 0 auto; }
+  .funnel.funnel_1 {
+    background: url("../../images/funnel-1.png") no-repeat top left;
+    width: 609px;
+    height: 478px;
+    margin-top: 30px; }
+  .funnel .value {
+    font-family: "Lato", sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 300;
+    padding-top: 56px; }
+    .funnel .value .new {
+      font-weight: 700;
+      margin-left: 60px; }
+  .funnel .label {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-top: 23px; }
+  .funnel.funnel_2 {
+    background: url("../../images/funnel-2.png") no-repeat top left;
+    width: 693px;
+    height: 471px;
+    margin-top: 13px; }
+
+#calculator {
+  height: 656px; }
+
+#funnel_1 {
+  position: relative;
+  display: none;
+  height: 896px; }
+  #funnel_1 .funnel_value {
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    color: #26424b;
+    font-weight: 300;
+    margin-top: 23px; }
+  #funnel_1 .funnel_label {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #26424b;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 42px; }
+  #funnel_1 .conversion {
+    position: absolute;
+    left: 100px; }
+    #funnel_1 .conversion .value {
+      font-family: "Lato", sans-serif;
+      font-size: 24px;
+      font-weight: 300;
+      color: #005388; }
+    #funnel_1 .conversion .label {
+      font-family: "Open Sans", sans-serif;
+      font-style: italic;
+      font-size: 14px;
+      font-weight: 600;
+      color: #005388; }
+    #funnel_1 .conversion.leads {
+      top: 206px; }
+    #funnel_1 .conversion.customers {
+      top: 362px; }
+
+#funnel_2 {
+  position: relative;
+  display: none;
+  height: 760px; }
+  #funnel_2 .funnel_description {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin-top: 30px; }
+    #funnel_2 .funnel_description span {
+      padding-left: 130px; }
+  #funnel_2 .funnel_value {
+    font-family: "Lato", sans-serif;
+    font-size: 48px;
+    color: #26424b;
+    font-weight: 300;
+    margin-top: 35px; }
+    #funnel_2 .funnel_value .new {
+      font-weight: 700;
+      margin-left: 20px; }
+  #funnel_2 .funnel_label {
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+    color: #26424b;
+    font-weight: 700;
+    margin-top: 18px;
+    margin-bottom: 42px; }
+  #funnel_2 .gains {
+    right: 0px;
+    position: absolute;
+    width: 200px; }
+    #funnel_2 .gains.funnel_description {
+      top: 20px; }
+    #funnel_2 .gains .value {
+      font-family: "Lato", sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: #00426d; }
+    #funnel_2 .gains .label {
+      font-family: "Open Sans", sans-serif;
+      font-style: italic;
+      font-size: 14px;
+      font-weight: 700;
+      color: #005388; }
+    #funnel_2 .gains.visitors {
+      top: 218px; }
+    #funnel_2 .gains.leads {
+      top: 373px; }
+    #funnel_2 .gains.customers {
+      top: 530px; }
+    #funnel_2 .gains.revenue {
+      top: 674px;
+      font-size: 30px;
+      font-weight: 900; }
+
 .contact {
   margin-top: 130px;
   margin-left: 290px;
@@ -386,9 +520,6 @@ button {
 .height_789 {
   height: 789px; }
 
-.height_700 {
-  height: 700px; }
-
 .height_646 {
   height: 646px; }
 
@@ -440,6 +571,9 @@ button {
 .text_blue_3 {
   color: #2b8ca6; }
 
+.text_blue_5 {
+  color: #005388; }
+
 .text_blue_dark {
   color: #052338; }
 
@@ -472,6 +606,9 @@ button {
 
 .line_height_45 {
   line-height: 45px; }
+
+.line_height_22 {
+  line-height: 22px; }
 
 .relative {
   position: relative; }
@@ -511,6 +648,9 @@ button {
 
 .font_size_38 {
   font-size: 38px; }
+
+.font_size_30 {
+  font-size: 30px; }
 
 .font_size_24 {
   font-size: 24px; }
