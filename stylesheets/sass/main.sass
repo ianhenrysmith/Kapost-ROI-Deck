@@ -48,7 +48,7 @@ html
   z-index: 99
   .table_container
     margin: auto
-    width: 960px
+    width: 827px
     
 .deck
   overflow-x: hidden
@@ -111,25 +111,30 @@ html
   line-height: 69px
   
 .nav
-  background: url(../../images/nav_btns.png) no-repeat -282px 0
-  color: #CAC7C1
+  background: url(../../images/nav-sprite-calc.png) no-repeat -282px 0
+  font-family: 'Lato', sans-serif
+  font-weight: 300
+  color: #3C96AF
   display: inline-block
   font-size: 18px
-  // border-top: 4px solid #F3F0E9;
   height: 22px
-  line-height: 22px
+  line-height: 18px
   padding: 18px 0 12px
   text-align: center
-  text-shadow: white 0 1px 0
   width: 47px
+  &.calculator
+    background-position: -188px 0
+    .label
+      visibility: hidden
+    &:hover, &.current
+      background-position: -235px 0
   &:hover, &.current
     background-position: -329px 0
-    color: $gray-dark
+    color: white
   
 .nav_spacer
-  // background: url(../../images/nav-filler.png) repeat-x 0 29px
   display: inline-block
-  height: 56px
+  height: 59px
   vertical-align: -16px
   width: 23px
   
@@ -205,6 +210,9 @@ html
   .green_forest
     padding: 20px 0 1px
 
+#slide_11
+  .green_aqua
+    padding: 63px 0 58px
   
 .table_1
   margin: 0 50px 0 82px
@@ -218,9 +226,42 @@ html
     width: 400px
     vertical-align: top
     
-.table_contact
-  border-bottom: 3px solid black
-  margin: auto
+.contact
+  margin-top: 130px
+  margin-left: 290px
+  font-style: italic
+  color: $green-forest
+  font-family: "Open Sans", sans-serif
+  font-size: 26px
+  line-height: 69px
+  a
+    color: $green-forest
+    text-decoration: underline
+    font-style: normal
+  
+.download
+  width: 269px
+  height: 182px
+  float: left
+  margin-right: 20px
+  text-align: center
+  color: $green-forest
+  a
+    color: $green-forest
+    margin-top: 184px
+    display: block
+  &.powerpoint
+    background: url("../../images/powerpoint-preview.png") no-repeat top left
+  &.pdf
+    background: url("../../images/pdf-preview.png") no-repeat top left
+    
+.share
+  float: left
+  margin-left: 165px
+  width: 70px
+  
+.clear
+  clear: both
   
 .text_1
   font-family: 'Open Sans', sans-serif
@@ -316,6 +357,9 @@ html
   
 .width_300
   width: 300px
+
+.height_1600
+  height: 1600px
   
 .height_1000
   height: 1000px
@@ -340,6 +384,9 @@ html
   
 .height_240
   height: 240px
+  
+.height_189
+  height: 189px
 
 .height_100
   height: 100px
@@ -533,6 +580,9 @@ html
   
 .padding_70t
   padding-top: 70px
+  
+.padding_79t
+  padding-top: 79px
 
 .padding_230t
   padding-top: 230px

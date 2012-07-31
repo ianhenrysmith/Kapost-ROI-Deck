@@ -29,7 +29,9 @@
       .nav_spacer                                  
       %a.nav.toplink{:href=>"#slide_9", :title => "9"}=""
       .nav_spacer                                  
-      %a.nav.toplink{:href=>"#slide_10", :title => "10"}=""
+      %a.nav.toplink{:href=>"#slide_10", :title => "c", :class => "calculator"}=""
+      .nav_spacer
+      %a.nav.toplink{:href=>"#slide_11", :title => "10"}=""
   #slide_1.slide.padding_70t.zindex_9
     .slide_container.blue_seafoam.text_center.height_1000
     
@@ -281,5 +283,57 @@
       %img{:src => "images/complex-cloud-3-sm.png", :style => "right: -106px; top: 352px", :class => "cloud"}
       
       %a{:href=> "http://kapost.com/#customers", :target => "_blank", :style => 'position: absolute; top: 647px; right: 40px', :class => 'text_blue_3 text_underline text_open_sans italic font_size_18 bold'} See a list of other Kapost customers
+      
+  #slide_11.slide.slide_with_bleed.height_1600
+    .slide_container.blue_seafoam.height_189
+      .text_green_forest.text_arvo.callout_awesome.padding_79t.zindex_9.relative
+        Content is
+        %b critical
+        to
+        %br
+        %b marketing success
+      %img{:src => "images/cloud-and-banner.png", :style => "left: 0px; top: 70px", :class => "cloud"}
+      %img{:src => "images/complex-cloud-4-sm.png", :style => "right: -160px; top: -70px", :class => "cloud"}
+      %img{:src => "images/simple-cloud-3-sm.png", :style => "left: 4px; top: 219px", :class => "cloud zindex_9"}
+      %img{:src => "images/complex-cloud-1-sm.png", :style => "right: -82px; top: 213px", :class => "cloud zindex_9"}
+      
+    .green_aqua.zindex_10.relative
+      .text_white.text_arvo.callout_awesome{:style => 'line-height: 16px'}
+        Use
+        %img{:src => "images/kapost-logo-sm.png", :class => "margin_n20t"}
+        to build and operate
+        %br
+        your content marketing machine
+        
+    .slide_container.blue_seafoam.height_646
+  
+      .list_item_2.text_green_forest.text_center.italic.padding_70t
+        %b Download
+        and share this deck:
+        
+      .share
+        %a{:href => "https://twitter.com/share", :class => "twitter-share-button", :"data-via" => "", :"data-count" => "vertical", :"data-size" => "large"} Tweet
+        :javascript
+          !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs")
+        
+        %script{:src => "//platform.linkedin.com/in.js", :type => "text/javascript"}
+        %script{:type => "IN/Share", :"data-counter" => "top"}
+        
+      .download.powerpoint
+        %a{:href => "http://www.eloqua.com/grande/Grande_Guide_To_Sales_Enablement.html"}
+          %i.bold Unformatted
+          %u Powerpoint
+      
+      .download.pdf
+        %a{:href => "http://www.eloqua.com/grande/Grande_Guide_To_Sales_Enablement.html"}
+          %i.bold Formated
+          %u PDF
+          
+      .clear
+      .contact
+        %b To learn more, contact
+        %a{:href => 'mailto:sales@kapost.com'} sales@kapost.com
+        
+      %img{:src => "images/giant-cloud.png", :style => "left: -354px; top: 451px", :class => "cloud"}
       
       

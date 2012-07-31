@@ -30,7 +30,9 @@
       <div class='nav_spacer'></div>
       <a class='nav toplink' href='#slide_9' title='9'></a>
       <div class='nav_spacer'></div>
-      <a class='nav toplink' href='#slide_10' title='10'></a>
+      <a class='calculator nav toplink' href='#slide_10' title='c'></a>
+      <div class='nav_spacer'></div>
+      <a class='nav toplink' href='#slide_11' title='10'></a>
     </div>
   </div>
   <div class='slide padding_70t zindex_9' id='slide_1'>
@@ -310,6 +312,64 @@
       <img class='cloud' src='images/complex-cloud-1-lg.png' style='left: -194px; top: 350px' />
       <img class='cloud' src='images/complex-cloud-3-sm.png' style='right: -106px; top: 352px' />
       <a class='text_blue_3 text_underline text_open_sans italic font_size_18 bold' href='http://kapost.com/#customers' style='position: absolute; top: 647px; right: 40px' target='_blank'>See a list of other Kapost customers</a>
+    </div>
+  </div>
+  <div class='slide slide_with_bleed height_1600' id='slide_11'>
+    <div class='slide_container blue_seafoam height_189'>
+      <div class='text_green_forest text_arvo callout_awesome padding_79t zindex_9 relative'>
+        Content is
+        <b>critical</b>
+        to
+        <br />
+        <b>marketing success</b>
+      </div>
+      <img class='cloud' src='images/cloud-and-banner.png' style='left: 0px; top: 70px' />
+      <img class='cloud' src='images/complex-cloud-4-sm.png' style='right: -160px; top: -70px' />
+      <img class='cloud zindex_9' src='images/simple-cloud-3-sm.png' style='left: 4px; top: 219px' />
+      <img class='cloud zindex_9' src='images/complex-cloud-1-sm.png' style='right: -82px; top: 213px' />
+    </div>
+    <div class='green_aqua zindex_10 relative'>
+      <div class='text_white text_arvo callout_awesome' style='line-height: 16px'>
+        Use
+        <img class='margin_n20t' src='images/kapost-logo-sm.png' />
+        to build and operate
+        <br />
+        your content marketing machine
+      </div>
+    </div>
+    <div class='slide_container blue_seafoam height_646'>
+      <div class='list_item_2 text_green_forest text_center italic padding_70t'>
+        <b>Download</b>
+        and share this deck:
+      </div>
+      <div class='share'>
+        <a class='twitter-share-button' data-count='vertical' data-size='large' data-via='' href='https://twitter.com/share'>Tweet</a>
+        <script type='text/javascript'>
+          //<![CDATA[
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs")
+          //]]>
+        </script>
+        <script src='//platform.linkedin.com/in.js' type='text/javascript'></script>
+        <script data-counter='top' type='IN/Share'></script>
+      </div>
+      <div class='download powerpoint'>
+        <a href='http://www.eloqua.com/grande/Grande_Guide_To_Sales_Enablement.html'>
+          <i class='bold'>Unformatted</i>
+          <u>Powerpoint</u>
+        </a>
+      </div>
+      <div class='download pdf'>
+        <a href='http://www.eloqua.com/grande/Grande_Guide_To_Sales_Enablement.html'>
+          <i class='bold'>Formated</i>
+          <u>PDF</u>
+        </a>
+      </div>
+      <div class='clear'></div>
+      <div class='contact'>
+        <b>To learn more, contact</b>
+        <a href='mailto:sales@kapost.com'>sales@kapost.com</a>
+      </div>
+      <img class='cloud' src='images/giant-cloud.png' style='left: -354px; top: 451px' />
     </div>
   </div>
 </div>
