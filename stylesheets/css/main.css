@@ -399,7 +399,8 @@ button {
 .share {
   float: left;
   margin-left: 165px;
-  width: 70px; }
+  width: 70px;
+  margin-top: 10px; }
 
 .clear {
   clear: both; }
