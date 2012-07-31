@@ -306,12 +306,57 @@
         discuss best practices and how they run their machines on Kapost
       </div>
     </div>
-    <div class='slide_container blue_seafoam text_center height_907'>
+    <div class='slide_container blue_seafoam text_center height_789'>
       <img class='cloud zindex_9' src='images/girder-left.png' style='left: -140px; top: 0px' />
       <img class='cloud' src='images/girder-right.png' style='right: -140px; top: 0px' />
       <img class='cloud' src='images/complex-cloud-1-lg.png' style='left: -194px; top: 350px' />
       <img class='cloud' src='images/complex-cloud-3-sm.png' style='right: -106px; top: 352px' />
       <a class='text_blue_3 text_underline text_open_sans italic font_size_18 bold' href='http://kapost.com/#customers' style='position: absolute; top: 647px; right: 40px' target='_blank'>See a list of other Kapost customers</a>
+    </div>
+  </div>
+  <div class='slide slide_with_bleed' id='slide_10'>
+    <div class='slide_container blue_seafoam height_70'></div>
+    <div class='marine_blue zindex_9 relative'>
+      <div class='text_white text_arvo callout_awesome'>
+        SEE WHAT IMPACT
+        <b>A CONTENT MARKETING MACHINE</b>
+        <br />
+        CAN HAVE FOR
+        <b>YOU</b>
+      </div>
+      <div class='text_blue_dark title_secondary margin_10t text_center font_size_20 italic'>Enter information about your marketing operation to calculate your Return on Investment from Kapost</div>
+    </div>
+    <div class='slide_container blue_seafoam height_700 text_center'>
+      <img class='cloud' src='images/calculator.png' style='left: 30px; top: 28px' />
+      <div class='input_container'>
+        <label for='revenue_goal'>New Revenue Goal:</label>
+        <br />
+        <input id='revenue_goal' name='revenue_goal' />
+      </div>
+      <div class='input_container'>
+        <label for='average_revenue'>Average Revenue per Sale:</label>
+        <br />
+        <input id='average_revenue' name='average_revenue' />
+      </div>
+      <div class='input_container'>
+        <label for='revenue_marketing'>% Revenue from Marketing:</label>
+        <br />
+        <input id='revenue_marketing' name='revenue_marketing' placeholder='35%' />
+      </div>
+      <div class='input_container'>
+        <label for='conversion'>% Conversion Visitor/Touch to Lead:</label>
+        <br />
+        <input id='conversion' name='conversion' placeholder='2%' />
+      </div>
+      <div class='input_container'>
+        <label for='lead'>% Lead to Customer:</label>
+        <br />
+        <input id='lead' name='lead' placeholder='.25%' />
+      </div>
+      <button class='funnel_it disabled' id='funnel_it' name='funnel_it'>
+        See your Funnel
+        <span class='arrow'></span>
+      </button>
     </div>
   </div>
   <div class='slide slide_with_bleed height_1600' id='slide_11'>

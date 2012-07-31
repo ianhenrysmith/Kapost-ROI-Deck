@@ -7,6 +7,7 @@ $blue-0: #89CDE2
 $blue-1: #b9e3ed
 $blue-2: #0371b8
 $blue-3: #2B8CA6
+$blue-4: #00426D
 $blue-sky: #a1d6e4
 $blue-light: #79a8c8
 $blue-marine: #0072bb
@@ -15,6 +16,7 @@ $blue-dark: #052338
 $gray: #c0c0c0
 $gray-dark: #666
 $gray-light: #333
+$gray-1: #7195AA
 
 $green-aqua: #00baa7
 $green-light: #65C1BF
@@ -209,6 +211,11 @@ html
 #slide_9
   .green_forest
     padding: 20px 0 1px
+    
+#slide_10
+  .marine_blue
+    padding: 33px 0 20px
+    vertical-align: top
 
 #slide_11
   .green_aqua
@@ -225,6 +232,49 @@ html
   td
     width: 400px
     vertical-align: top
+    
+.input_container
+  padding-top: 20px
+  margin-bottom: 5px
+  margin-left: 285px
+  text-align: left
+  label
+    color: $blue-4
+    font-family: 'Open Sans', sans-serif
+    font-size: 18px
+    font-weight: 700
+    font-style: italic
+  input
+    font-family: 'Lato', sans-serif
+    font-size: 24px 
+    font-weight: 400
+    color: $green-forest
+    border: 1px solid black
+    margin-top: 3px
+    line-height: 41px
+    padding: 0 10px
+    width: 370px
+    
+button
+  background: url("../../images/roi-button.png") no-repeat top left
+  border: none
+  width: 374px
+  height: 51px
+  text-align: center
+  font-family: "Open Sans", sans-serif
+  font-size: 24px
+  color: $blue-marine
+  font-weight: 600
+  margin-top: 36px
+  cursor: pointer
+  .arrow
+    background: url("../../images/down-arrow.png") no-repeat left top
+    display: inline-block
+    width: 9px
+    height: 21px
+    margin-bottom: -3px
+  &.disabled
+    color: $gray-1
     
 .contact
   margin-top: 130px
@@ -375,6 +425,12 @@ html
 
 .height_800
   height: 800px
+  
+.height_789
+  height: 789px
+  
+.height_700
+  height: 700px
   
 .height_646
   height: 646px
