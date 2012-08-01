@@ -85,9 +85,9 @@
       e13 = Math.round(e16 / average_revenue);
       e9 = Math.round(e13 / e11);
       e5 = Math.round(e9 / e7);
-      g5 = 0.10012;
-      g7 = 0.09345;
-      g11 = 0.089785;
+      g5 = 0.074;
+      g7 = 0.2;
+      g11 = 0.25;
       i5 = e5 * (1 + g5);
       i7 = e7 * (1 + g7);
       i9 = i5 * i7;
