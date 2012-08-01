@@ -372,7 +372,7 @@ button {
       #funnel_2 .lifts .machine_conversion .value {
         font-family: "Lato", sans-serif;
         font-size: 24px;
-        font-weight: 300;
+        font-weight: 400;
         color: white; }
       #funnel_2 .lifts .machine_conversion .label {
         font-family: "Open Sans", sans-serif;
@@ -381,7 +381,7 @@ button {
         font-weight: 600;
         color: white; }
       #funnel_2 .lifts .machine_conversion.lift {
-        top: 30px; }
+        top: 0px; }
       #funnel_2 .lifts .machine_conversion.new_leads {
         top: 156px; }
       #funnel_2 .lifts .machine_conversion.new_customers {

@@ -79,12 +79,16 @@ class ROICalculator
     k9 = i9 - e9
     k13 = i13 - e13
     k16 = i16 - e16
+    
+    lift = Math.round ((i5 * 100 / e5) - 100)
       
     if lead < 1 then lead = lead.toFixed(2).toString().replace('0.', '.')
-    if i7 < 1 then i7 = i7.toFixed(2).toString().replace('0.', '.')
+    if i7 < 1 then i7 = (i7*100).toFixed(2).toString().replace('0.', '.')
     if i11 < 1 then i11 = i11.toFixed(2).toString().replace('0.', '.')
+    if lift < 1 then i11 = lift.toFixed(2).toString().replace('0.', '.')
     $('.conversion.leads .value').text("#{conversion}%")
     $('.conversion.customers .value').text("#{lead}%")
+    $('.machine_conversion.lift .value').text("#{lift}%")
     $('.machine_conversion.new_leads .value').text("#{i7}%")
     $('.machine_conversion.new_customers .value').text("#{i11}%")
     
@@ -134,8 +138,8 @@ $(document).ready () ->
 (($) ->
   $.fn.goTo = () ->
     $('html, body').animate({
-      scrollTop: $(this).offset().top + 'px'
-    }, 'fast');
+      scrollTop: $(this).offset().top - 90 + 'px'
+    }, 'slow');
     return this
 )(jQuery);
 

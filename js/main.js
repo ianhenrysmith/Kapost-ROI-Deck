@@ -51,7 +51,7 @@
     };
 
     ROICalculator.prototype.funnel = function() {
-      var average_revenue, conversion, e11, e13, e16, e5, e7, e9, format_number, g11, g5, g7, i11, i13, i16, i5, i7, i9, k13, k16, k5, k9, lead, revenue_goal, revenue_marketing;
+      var average_revenue, conversion, e11, e13, e16, e5, e7, e9, format_number, g11, g5, g7, i11, i13, i16, i5, i7, i9, k13, k16, k5, k9, lead, lift, revenue_goal, revenue_marketing;
       if ($(this).hasClass('disabled')) {
         return;
       }
@@ -102,17 +102,22 @@
       k9 = i9 - e9;
       k13 = i13 - e13;
       k16 = i16 - e16;
+      lift = Math.round((i5 * 100 / e5) - 100);
       if (lead < 1) {
         lead = lead.toFixed(2).toString().replace('0.', '.');
       }
       if (i7 < 1) {
-        i7 = i7.toFixed(2).toString().replace('0.', '.');
+        i7 = (i7 * 100).toFixed(2).toString().replace('0.', '.');
       }
       if (i11 < 1) {
         i11 = i11.toFixed(2).toString().replace('0.', '.');
       }
+      if (lift < 1) {
+        i11 = lift.toFixed(2).toString().replace('0.', '.');
+      }
       $('.conversion.leads .value').text("" + conversion + "%");
       $('.conversion.customers .value').text("" + lead + "%");
+      $('.machine_conversion.lift .value').text("" + lift + "%");
       $('.machine_conversion.new_leads .value').text("" + i7 + "%");
       $('.machine_conversion.new_customers .value').text("" + i11 + "%");
       $('.funnel .value.visitors').text("" + (format_number(e5)));
@@ -158,8 +163,8 @@
   (function($) {
     return $.fn.goTo = function() {
       $('html, body').animate({
-        scrollTop: $(this).offset().top + 'px'
-      }, 'fast');
+        scrollTop: $(this).offset().top - 90 + 'px'
+      }, 'slow');
       return this;
     };
   })(jQuery);
