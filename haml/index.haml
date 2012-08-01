@@ -323,19 +323,22 @@
           %label{:for => "revenue_marketing"} % Revenue from Marketing:
           %img{:src => "images/question-mark.png", :rel => "tooltip", :title => "The percentage of the New Revenue Goal that marketing is responsible to generate through leads, opportunities that it produces", :class => 'tip'}
           %br
-          %input{:name => "revenue_marketing", :id => "revenue_marketing", :placeholder => "35%"}
+          %span.percent %
+          %input{:name => "revenue_marketing", :id => "revenue_marketing", :value => "35"}
       
         .input_container
           %label{:for => "conversion"} % Conversion Visitor/Touch to Lead:
           %img{:src => "images/question-mark.png", :rel => "tooltip", :title => "The percentage of marketing touches / site visitors that convert to leads. The default given is an industry average.", :class => 'tip'}
           %br
-          %input{:name => "conversion", :id => "conversion", :placeholder => "2%"}
+          %span.percent %
+          %input{:name => "conversion", :id => "conversion", :value => "2"}
       
         .input_container
           %label{:for => "lead"} % Lead to Customer:
           %img{:src => "images/question-mark.png", :rel => "tooltip", :title => "The percentage of leads that convert to customers. The default given is an industry average.", :class => 'tip'}
           %br
-          %input{:name => "lead", :id => "lead", :placeholder => ".25%"}
+          %span.percent %
+          %input{:name => "lead", :id => "lead", :value => ".25"}
         
         %button{:name => "funnel_it", :id => "funnel_it", :class=>"funnel_it disabled"}
           See your Funnel
@@ -396,16 +399,21 @@
         .lifts
           .machine_conversion.lift
             .value
-            .label Lift
+            .label
+              Traffic Lift
+              %br
+              on Machine
           .machine_conversion.new_leads
+            .label.text_blue_5 Conversion:
             .value
-            .label Machinized
+            .label on Machine
           .conversion.leads
             .value
             .label Baseline
           .machine_conversion.new_customers
+            .label.text_blue_5 Conversion:
             .value
-            .label Machinized
+            .label on Machine
           .conversion.customers
             .value
             .label Baseline
@@ -416,7 +424,7 @@
           
         .funnel_description
           Baseline
-          %span Machinized
+          %span On Machine
           
         .funnel_description.gains
           Your

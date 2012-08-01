@@ -355,19 +355,22 @@
           <label for='revenue_marketing'>% Revenue from Marketing:</label>
           <img class='tip' rel='tooltip' src='images/question-mark.png' title='The percentage of the New Revenue Goal that marketing is responsible to generate through leads, opportunities that it produces' />
           <br />
-          <input id='revenue_marketing' name='revenue_marketing' placeholder='35%' />
+          <span class='percent'>%</span>
+          <input id='revenue_marketing' name='revenue_marketing' value='35' />
         </div>
         <div class='input_container'>
           <label for='conversion'>% Conversion Visitor/Touch to Lead:</label>
           <img class='tip' rel='tooltip' src='images/question-mark.png' title='The percentage of marketing touches / site visitors that convert to leads. The default given is an industry average.' />
           <br />
-          <input id='conversion' name='conversion' placeholder='2%' />
+          <span class='percent'>%</span>
+          <input id='conversion' name='conversion' value='2' />
         </div>
         <div class='input_container'>
           <label for='lead'>% Lead to Customer:</label>
           <img class='tip' rel='tooltip' src='images/question-mark.png' title='The percentage of leads that convert to customers. The default given is an industry average.' />
           <br />
-          <input id='lead' name='lead' placeholder='.25%' />
+          <span class='percent'>%</span>
+          <input id='lead' name='lead' value='.25' />
         </div>
         <button class='funnel_it disabled' id='funnel_it' name='funnel_it'>
           See your Funnel
@@ -418,19 +421,25 @@
         <div class='lifts'>
           <div class='machine_conversion lift'>
             <div class='value'></div>
-            <div class='label'>Lift</div>
+            <div class='label'>
+              Traffic Lift
+              <br />
+              on Machine
+            </div>
           </div>
           <div class='machine_conversion new_leads'>
+            <div class='label text_blue_5'>Conversion:</div>
             <div class='value'></div>
-            <div class='label'>Machinized</div>
+            <div class='label'>on Machine</div>
           </div>
           <div class='conversion leads'>
             <div class='value'></div>
             <div class='label'>Baseline</div>
           </div>
           <div class='machine_conversion new_customers'>
+            <div class='label text_blue_5'>Conversion:</div>
             <div class='value'></div>
-            <div class='label'>Machinized</div>
+            <div class='label'>on Machine</div>
           </div>
           <div class='conversion customers'>
             <div class='value'></div>
@@ -443,7 +452,7 @@
         </div>
         <div class='funnel_description'>
           Baseline
-          <span>Machinized</span>
+          <span>On Machine</span>
         </div>
         <div class='funnel_description gains'>
           Your

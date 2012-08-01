@@ -78,6 +78,8 @@
       lead = parseFloat($('#lead').val().replace(/,/gi, ''));
       if (isNaN(lead) || lead === "") {
         lead = 0.25;
+      } else {
+        lead = lead.toFixed(2);
       }
       e7 = conversion / 100;
       e11 = lead / 100;
@@ -91,7 +93,7 @@
       i5 = e5 * (1 + g5);
       i7 = e7 * (1 + g7);
       i9 = i5 * i7;
-      i11 = e11 * (1 + g11) * 100;
+      i11 = (e11 * (1 + g11) * 100).toFixed(2);
       i13 = i9 * i11 / 100;
       i16 = i13 * average_revenue;
       i5 = Math.round(i5);
@@ -102,18 +104,19 @@
       k9 = i9 - e9;
       k13 = i13 - e13;
       k16 = i16 - e16;
-      lift = Math.round((i5 * 100 / e5) - 100);
+      lift = Math.round(((i5 * 100 / e5) - 100).toFixed(2));
+      i7 = (i7 * 100).toFixed(2);
       if (lead < 1) {
-        lead = lead.toFixed(2).toString().replace('0.', '.');
+        lead = lead.toString().replace('0.', '.');
       }
       if (i7 < 1) {
-        i7 = (i7 * 100).toFixed(2).toString().replace('0.', '.');
+        i7 = i7.toString().replace('0.', '.');
       }
       if (i11 < 1) {
-        i11 = i11.toFixed(2).toString().replace('0.', '.');
+        i11 = i11.toString().replace('0.', '.');
       }
       if (lift < 1) {
-        i11 = lift.toFixed(2).toString().replace('0.', '.');
+        lift = lift.toString().replace('0.', '.');
       }
       $('.conversion.leads .value').text("" + conversion + "%");
       $('.conversion.customers .value').text("" + lead + "%");

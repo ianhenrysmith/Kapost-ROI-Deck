@@ -209,7 +209,7 @@ html {
     font-size: 18px;
     font-weight: 700;
     font-style: italic; }
-  .input_container input, .input_container .dollar {
+  .input_container input, .input_container .dollar, .input_container .percent {
     font-family: "Lato", sans-serif;
     font-size: 24px;
     font-weight: 400;
@@ -226,6 +226,10 @@ html {
     position: absolute;
     top: 48px;
     left: 4px; }
+  .input_container .percent {
+    position: absolute;
+    top: 48px;
+    left: 345px; }
 
 button {
   background: url("../../images/roi-button.png") no-repeat top left;
@@ -363,9 +367,9 @@ button {
         font-weight: 600;
         color: #005388; }
       #funnel_2 .lifts .conversion.leads {
-        top: 205px; }
+        top: 225px; }
       #funnel_2 .lifts .conversion.customers {
-        top: 361px; }
+        top: 381px; }
     #funnel_2 .lifts .machine_conversion {
       position: absolute;
       left: 14px; }
@@ -380,6 +384,8 @@ button {
         font-size: 14px;
         font-weight: 600;
         color: white; }
+        #funnel_2 .lifts .machine_conversion .label.text_blue_5 {
+          color: #005388; }
       #funnel_2 .lifts .machine_conversion.lift {
         top: 0px; }
       #funnel_2 .lifts .machine_conversion.new_leads {

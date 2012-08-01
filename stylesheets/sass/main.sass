@@ -254,7 +254,7 @@ html
     font-size: 18px
     font-weight: 700
     font-style: italic
-  input, .dollar
+  input, .dollar, .percent
     font-family: 'Lato', sans-serif
     font-size: 24px 
     font-weight: 400
@@ -271,6 +271,10 @@ html
     position: absolute
     top: 48px
     left: 4px
+  .percent
+    position: absolute
+    top: 48px
+    left: 345px
     
 button
   background: url("../../images/roi-button.png") no-repeat top left
@@ -408,9 +412,9 @@ button
         font-weight: 600
         color: $blue-5
       &.leads
-        top: 205px
+        top: 225px
       &.customers
-        top: 361px
+        top: 381px
     .machine_conversion
       position: absolute
       left: 14px
@@ -425,6 +429,8 @@ button
         font-size: 14px
         font-weight: 600
         color: white
+        &.text_blue_5
+          color: $blue_5
       &.lift
         top: 0px
       &.new_leads
