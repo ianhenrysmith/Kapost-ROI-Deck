@@ -19,7 +19,7 @@ html {
   z-index: 99; }
   #nav .table_container {
     margin: auto;
-    width: 750px; }
+    width: 760px; }
 
 .deck {
   overflow-x: hidden;
@@ -324,7 +324,7 @@ button {
 #funnel_2 {
   position: relative;
   display: none;
-  height: 760px; }
+  height: 770px; }
   #funnel_2 .lifts_description {
     position: absolute;
     left: 26px;
