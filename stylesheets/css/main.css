@@ -19,7 +19,7 @@ html {
   z-index: 99; }
   #nav .table_container {
     margin: auto;
-    width: 827px; }
+    width: 750px; }
 
 .deck {
   overflow-x: hidden;
@@ -197,23 +197,35 @@ html {
   padding-top: 20px;
   margin-bottom: 5px;
   margin-left: 285px;
-  text-align: left; }
+  text-align: left;
+  position: relative; }
+  .input_container .tip {
+    position: absolute;
+    top: 23px;
+    left: 344px; }
   .input_container label {
     color: #00426d;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     font-weight: 700;
     font-style: italic; }
-  .input_container input {
+  .input_container input, .input_container .dollar {
     font-family: "Lato", sans-serif;
     font-size: 24px;
     font-weight: 400;
     color: #26424b;
+    line-height: 41px; }
+  .input_container input {
     border: 1px solid black;
     margin-top: 3px;
-    line-height: 41px;
     padding: 0 10px;
     width: 370px; }
+    .input_container input.with_dollar {
+      padding-left: 17px; }
+  .input_container .dollar {
+    position: absolute;
+    top: 48px;
+    left: 4px; }
 
 button {
   background: url("../../images/roi-button.png") no-repeat top left;
@@ -313,6 +325,67 @@ button {
   position: relative;
   display: none;
   height: 760px; }
+  #funnel_2 .lifts_description {
+    position: absolute;
+    left: 26px;
+    top: 609px;
+    background-color: #79a8c8;
+    width: 146px;
+    text-align: left;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 10px; }
+    #funnel_2 .lifts_description a {
+      color: white;
+      text-decoration: underline; }
+  #funnel_2 .lifts {
+    position: absolute;
+    left: 26px;
+    top: 134px;
+    background-color: #79a8c8;
+    width: 97px;
+    height: 475px;
+    text-align: left; }
+    #funnel_2 .lifts .conversion {
+      position: absolute;
+      left: 14px; }
+      #funnel_2 .lifts .conversion .value {
+        font-family: "Lato", sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        color: #005388; }
+      #funnel_2 .lifts .conversion .label {
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        font-size: 14px;
+        font-weight: 600;
+        color: #005388; }
+      #funnel_2 .lifts .conversion.leads {
+        top: 205px; }
+      #funnel_2 .lifts .conversion.customers {
+        top: 361px; }
+    #funnel_2 .lifts .machine_conversion {
+      position: absolute;
+      left: 14px; }
+      #funnel_2 .lifts .machine_conversion .value {
+        font-family: "Lato", sans-serif;
+        font-size: 24px;
+        font-weight: 300;
+        color: white; }
+      #funnel_2 .lifts .machine_conversion .label {
+        font-family: "Open Sans", sans-serif;
+        font-style: italic;
+        font-size: 14px;
+        font-weight: 600;
+        color: white; }
+      #funnel_2 .lifts .machine_conversion.lift {
+        top: 30px; }
+      #funnel_2 .lifts .machine_conversion.new_leads {
+        top: 156px; }
+      #funnel_2 .lifts .machine_conversion.new_customers {
+        top: 314px; }
   #funnel_2 .funnel_description {
     font-family: "Open Sans", sans-serif;
     font-style: italic;
@@ -369,7 +442,7 @@ button {
 
 .contact {
   margin-top: 130px;
-  margin-left: 290px;
+  text-align: center;
   font-style: italic;
   color: #26424b;
   font-family: "Open Sans", sans-serif;
@@ -386,7 +459,9 @@ button {
   float: left;
   margin-right: 20px;
   text-align: center;
-  color: #26424b; }
+  color: #26424b;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px; }
   .download a {
     color: #26424b;
     margin-top: 184px;
@@ -398,9 +473,10 @@ button {
 
 .share {
   float: left;
-  margin-left: 165px;
+  margin-left: 155px;
   width: 70px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  margin-right: 10px; }
 
 .clear {
   clear: both; }
@@ -524,8 +600,8 @@ button {
 .height_646 {
   height: 646px; }
 
-.height_625 {
-  height: 625px; }
+.height_575 {
+  height: 575px; }
 
 .height_240 {
   height: 240px; }
@@ -608,6 +684,9 @@ button {
 .line_height_45 {
   line-height: 45px; }
 
+.line_height_30 {
+  line-height: 30px; }
+
 .line_height_22 {
   line-height: 22px; }
 
@@ -628,6 +707,9 @@ button {
 
 .bold {
   font-weight: bold; }
+
+.no_transform {
+  text-transform: none; }
 
 .zindex_10 {
   z-index: 10; }
@@ -671,8 +753,8 @@ button {
 .margin_10t {
   margin-top: 10px; }
 
-.margin_18t {
-  margin-top: 18px; }
+.margin_8t {
+  margin-top: 8px; }
 
 .margin_20t {
   margin-top: 20px; }
@@ -692,6 +774,9 @@ button {
 .margin_40t {
   margin-top: 40px; }
 
+.margin_53t {
+  margin-top: 53px; }
+
 .margin_60t {
   margin-top: 60px; }
 
@@ -700,9 +785,6 @@ button {
 
 .margin_94t {
   margin-top: 94px; }
-
-.margin_103t {
-  margin-top: 103px; }
 
 .margin_108t {
   margin-top: 108px; }

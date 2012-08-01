@@ -1,12 +1,16 @@
 <head>
   <link href='http://yui.yahooapis.com/3.5.1/build/cssreset/cssreset-min.css' media='screen' rel='stylesheet' type='text/css' />
   <link href='stylesheets/css/main.css' media='screen' rel='stylesheet' type='text/css' />
+  <link href='stylesheets/css/bootstrap.min.css' media='screen' rel='stylesheet' type='text/css' />
+  <link href='stylesheets/css/jquery.fancybox-1.3.4.css' media='screen' rel='stylesheet' type='text/css' />
   <script src='js/jquery-1.7.2.min.js'></script>
   <script src='js/waypoints.min.js'></script>
   <script src='js/jquery.scrollTo-1.4.2-min.js'></script>
   <script src='js/jquery.easing.1.3.js'></script>
   <script src='js/jquery.pitchdeck.js'></script>
-  <script src='js/jquery.stellar.min.js'></script>
+  <!-- %script{:src => "js/jquery.stellar.min.js" } -->
+  <script src='js/bootstrap-tooltip.js'></script>
+  <script src='js/jquery.fancybox-1.3.4.js'></script>
   <script src='js/main.js'></script>
 </head>
 <div class='deck'>
@@ -28,11 +32,11 @@
       <div class='nav_spacer'></div>
       <a class='nav toplink' href='#slide_8' title='8'></a>
       <div class='nav_spacer'></div>
-      <a class='nav toplink' href='#slide_9' title='9'></a>
-      <div class='nav_spacer'></div>
+      <!-- %a.nav.toplink{:href=>"#slide_9", :title => "9"}="" -->
+      <!-- .nav_spacer -->
       <a class='calculator nav toplink' href='#slide_10' title='c'></a>
       <div class='nav_spacer'></div>
-      <a class='nav toplink' href='#slide_11' title='10'></a>
+      <a class='nav toplink' href='#slide_11' title='9'></a>
     </div>
   </div>
   <div class='slide padding_70t zindex_9' id='slide_1'>
@@ -123,7 +127,7 @@
         LEAD NURTURING -
       </div>
       <div class='title_secondary text_blue_green margin_55l'>Content is the fuel that powers the Marketing Automation engine</div>
-      <a class='margin_55l margin_18t margin_34b block' href='http://www.marketingprofs.com/articles/2012/8445/content-fuel-for-the-marketing-automation-engine' target='_blank'>Email &amp; lead nurturing campaigns struggle without compelling content</a>
+      <a class='margin_55l margin_8t margin_34b block' href='http://www.marketingprofs.com/articles/2012/8445/content-fuel-for-the-marketing-automation-engine' target='_blank'>Email &amp; lead nurturing campaigns struggle without compelling content</a>
       <div class='subtitle_1'>
         BOTTOM LINE -
       </div>
@@ -161,7 +165,7 @@
         <br />
         CONTENT MARKETING
       </div>
-      <div class='text_blue_green title_secondary margin_10t text_center font_size_20 italic'>All Marketers know that they need to become publishers, but few are doing it well.</div>
+      <div class='text_blue_green title_secondary margin_10t text_center font_size_18 italic'>All Marketers know that they need to become publishers, but few are doing it well.</div>
     </div>
     <div class='slide_container blue_seafoam text_center height_646'>
       <img class='zindex_10 relative' src='images/aberdeen-graph.png' style='' />
@@ -179,16 +183,16 @@
         PROCESS, TOOLS, PRACTICES TO
         <b>SUCCEED</b>
       </div>
-      <div class='text_blue_dark title_secondary margin_10t text_center font_size_20 italic'>Like any business operation (e.g. CRM for Sales), content marketing requires processes, best practices & tools</div>
+      <div class='text_blue_dark title_secondary margin_10t text_center font_size_18 italic'>Like any business operation (e.g. CRM for Sales), content marketing requires processes, best practices & tools</div>
     </div>
-    <div class='slide_container blue_seafoam text_center height_625'>
-      <img class='margin_103t' src='images/aberdeen-stat.png' />
+    <div class='slide_container blue_seafoam text_center height_575'>
+      <img class='margin_53t' src='images/aberdeen-stat.png' />
       <div class='caption margin_28t'>- SOURCE: ABERDEEN</div>
-      <img class='cloud' src='images/simple-cloud-1-lg-dark.png' style='left: -395px; top: 272px' />
-      <img class='cloud zindex_6' src='images/complex-cloud-3-sm-reverse.png' style='left: -220px; top: 410px' />
-      <img class='cloud zindex_7' src='images/mini-machine-2.png' style='left: 244px; top: 252px' />
-      <img class='cloud zindex_8' src='images/simple-cloud-2-sm.png' style='left: 420px; top: 544px' />
-      <img class='cloud zindex_9' src='images/complex-cloud-4-sm.png' style='left: 660px; top: 455px' />
+      <img class='cloud' src='images/simple-cloud-1-lg-dark.png' style='left: -395px; top: 222px' />
+      <img class='cloud zindex_6' src='images/complex-cloud-3-sm-reverse.png' style='left: -220px; top: 360px' />
+      <img class='cloud zindex_7' src='images/mini-machine-2.png' style='left: 244px; top: 202px' />
+      <img class='cloud zindex_8' src='images/simple-cloud-2-sm.png' style='left: 420px; top: 494px' />
+      <img class='cloud zindex_9' src='images/complex-cloud-4-sm.png' style='left: 660px; top: 405px' />
     </div>
   </div>
   <div class='slide slide_with_bleed' id='slide_6'>
@@ -212,10 +216,12 @@
         <br />
         Kapost guide -
       </div>
-      <div class='text_blue_green stripe text_underline text_open_sans font_size_24 margin_30t'>
-        "How to Build and Operate a
-        <br />
-        Content Marketing Machine"
+      <div class='stripe text_underline text_arvo font_size_24 margin_30t no_transform line_height_30'>
+        <a class='text_blue_green' href='http://marketeer.kapost.com/2012/06/how-to-build-and-operate-a-content-marketing-machine/' target='_blank'>
+          How to Build and Operate a
+          <br />
+          Content Marketing Machine
+        </a>
       </div>
       <img class='cloud' src='images/complex-cloud-2-sm-dark.png' style='left: -145px; top: 347px' />
       <img class='cloud zindex_6' src='images/content-marketing-machine.png' style='left: 404px; top: 0px' />
@@ -233,7 +239,7 @@
         <br />
         CONTENT MARKETING MACHINE
       </div>
-      <div class='text_blue_green title_secondary padding_20t text_center font_size_20 italic'>
+      <div class='text_blue_green title_secondary padding_20t text_center font_size_18 italic'>
         Kapost organizes content marketing as a structured business process,
         <br />
         enforcing best practices and optimizing results
@@ -241,7 +247,9 @@
     </div>
     <div class='slide_container blue_seafoam height_800'>
       <img class='cloud zindex_6' src='images/machine-foundation.png' style='left: -215px; top: 0px' />
-      <img class='cloud zindex_7' src='images/video.png' style='left: 630px; top: 370px' />
+      <a class='fancyVideo relative zindex_7' href='http://www.youtube.com/watch?v=vSR9bYmhgUI'>
+        <img class='cloud' src='images/video.png' style='left: 630px; top: 370px' />
+      </a>
       <img class='cloud' src='images/complex-cloud-3-sm.png' style='left: 700px; top: 67px' />
       <img class='cloud' src='images/complex-cloud-3-sm.png' style='left: -18px; top: 407px' />
       <img class='cloud zindex_7' src='images/simple-cloud-2-mini.png' style='left: 642px; top: 471px' />
@@ -260,7 +268,7 @@
       <div class='text_green_forest zindex_6 relative'>
         <div class='list_item_2'>
           <b class='italic'>Software as a Service</b>
-          no IT involved
+          &mdash; no IT involved
         </div>
         <div class='list_item_2'>
           30-day
@@ -287,7 +295,7 @@
       <img class='cloud' src='images/simple-cloud-3-sm.png' style='left: 138px; top: 686px' />
     </div>
   </div>
-  <div class='slide slide_with_bleed' id='slide_9'>
+  <div class='slide slide_with_bleed' id='slide_9' style='display:none'>
     <div class='slide_container blue_seafoam height_70'>
       <img class='cloud zindex_8' src='images/complex-cloud-3-sm.png' style='left: 510px; top: 25px' />
       <img class='cloud zindex_8' src='images/simple-cloud-1-lg.png' style='left: -71px; top: 79px' />
@@ -300,7 +308,7 @@
         <b class='inline_block vertical_middle margin_n40t'>run on</b>
         <img class='' src='images/kapost-logo-sm-white.png' />
       </div>
-      <div class='text_green_aqua_dark title_secondary margin_10t text_center font_size_20 italic'>
+      <div class='text_green_aqua_dark title_secondary margin_10t text_center font_size_18 italic'>
         Watch Content Marketing leaders from organizations such as Intel, Eloqua, and Trip Advisor
         <br />
         discuss best practices and how they run their machines on Kapost
@@ -324,33 +332,40 @@
         CAN HAVE FOR
         <b>YOU</b>
       </div>
-      <div class='text_blue_dark title_secondary margin_10t text_center font_size_20 italic'>Enter information about your marketing operation to calculate your Return on Investment from Kapost</div>
+      <div class='text_blue_dark title_secondary margin_10t text_center font_size_18 italic'>Enter information about your marketing operation to calculate your Return on Investment from Kapost</div>
     </div>
     <div class='slide_container blue_seafoam text_center'>
       <div id='calculator'>
         <img class='cloud' src='images/calculator.png' style='left: 30px; top: 28px' />
         <div class='input_container'>
           <label for='revenue_goal'>New Revenue Goal:</label>
+          <img class='tip' rel='tooltip' src='images/question-mark.png' title='This should be the additional annual revenue planned to be generated by sales and marketing in your organization' />
           <br />
-          <input id='revenue_goal' name='revenue_goal' />
+          <span class='dollar'>$</span>
+          <input class='with_dollar' id='revenue_goal' name='revenue_goal' />
         </div>
         <div class='input_container'>
           <label for='average_revenue'>Average Revenue per Sale:</label>
+          <img class='tip' rel='tooltip' src='images/question-mark.png' title='Average annual generated by each new customer' />
           <br />
-          <input id='average_revenue' name='average_revenue' />
+          <span class='dollar'>$</span>
+          <input class='with_dollar' id='average_revenue' name='average_revenue' />
         </div>
         <div class='input_container'>
           <label for='revenue_marketing'>% Revenue from Marketing:</label>
+          <img class='tip' rel='tooltip' src='images/question-mark.png' title='The percentage of the New Revenue Goal that marketing is responsible to generate through leads, opportunities that it produces' />
           <br />
           <input id='revenue_marketing' name='revenue_marketing' placeholder='35%' />
         </div>
         <div class='input_container'>
           <label for='conversion'>% Conversion Visitor/Touch to Lead:</label>
+          <img class='tip' rel='tooltip' src='images/question-mark.png' title='The percentage of marketing touches / site visitors that convert to leads. The default given is an industry average.' />
           <br />
           <input id='conversion' name='conversion' placeholder='2%' />
         </div>
         <div class='input_container'>
           <label for='lead'>% Lead to Customer:</label>
+          <img class='tip' rel='tooltip' src='images/question-mark.png' title='The percentage of leads that convert to customers. The default given is an industry average.' />
           <br />
           <input id='lead' name='lead' placeholder='.25%' />
         </div>
@@ -383,7 +398,7 @@
           <div class='label'>Customers</div>
         </div>
         <div class='funnel_value'></div>
-        <div class='funnel_label'>New Revenue</div>
+        <div class='funnel_label'>New Annual Revenue</div>
         <button class='rev_it' id='rev_it' name='rev_it'>
           Rev it up on the Machine!
         </button>
@@ -399,6 +414,32 @@
           The improvements your funnel would enjoy from
           <br />
           the Content Marketing Machine -
+        </div>
+        <div class='lifts'>
+          <div class='machine_conversion lift'>
+            <div class='value'></div>
+            <div class='label'>Lift</div>
+          </div>
+          <div class='machine_conversion new_leads'>
+            <div class='value'></div>
+            <div class='label'>Machinized</div>
+          </div>
+          <div class='conversion leads'>
+            <div class='value'></div>
+            <div class='label'>Baseline</div>
+          </div>
+          <div class='machine_conversion new_customers'>
+            <div class='value'></div>
+            <div class='label'>Machinized</div>
+          </div>
+          <div class='conversion customers'>
+            <div class='value'></div>
+            <div class='label'>Baseline</div>
+          </div>
+        </div>
+        <div class='lifts_description'>
+          Content Marketing operations that use best tools, practices & processes enjoy significantly higher results. Learn more in this
+          <a href='http://aberdeen.com/' target='_blank'>Aberdeen Report.</a>
         </div>
         <div class='funnel_description'>
           Baseline
@@ -439,7 +480,7 @@
           <div class='label'>Customers</div>
         </div>
         <div class='funnel_value'></div>
-        <div class='funnel_label'>New Revenue</div>
+        <div class='funnel_label'>New Annual Revenue</div>
       </div>
     </div>
     <div class='slide_container blue_seafoam height_70'></div>
@@ -495,7 +536,7 @@
         </a>
       </div>
       <div class='clear'></div>
-      <div class='contact'>
+      <div class='contact zindex_9 relative'>
         <b>To learn more, contact</b>
         <a href='mailto:sales@kapost.com'>sales@kapost.com</a>
       </div>

@@ -51,7 +51,8 @@ html
   z-index: 99
   .table_container
     margin: auto
-    width: 827px
+    //width: 827px
+    width: 750px
     
 .deck
   overflow-x: hidden
@@ -242,22 +243,34 @@ html
   margin-bottom: 5px
   margin-left: 285px
   text-align: left
+  position: relative
+  .tip
+    position: absolute
+    top: 23px
+    left: 344px
   label
     color: $blue-4
     font-family: 'Open Sans', sans-serif
     font-size: 18px
     font-weight: 700
     font-style: italic
-  input
+  input, .dollar
     font-family: 'Lato', sans-serif
     font-size: 24px 
     font-weight: 400
     color: $green-forest
+    line-height: 41px
+  input
     border: 1px solid black
     margin-top: 3px
-    line-height: 41px
     padding: 0 10px
     width: 370px
+    &.with_dollar
+      padding-left: 17px
+  .dollar
+    position: absolute
+    top: 48px
+    left: 4px
     
 button
   background: url("../../images/roi-button.png") no-repeat top left
@@ -357,6 +370,67 @@ button
   position: relative
   display: none
   height: 760px
+  .lifts_description
+    position: absolute
+    left: 26px
+    top: 609px
+    background-color: $blue-light
+    width: 146px
+    text-align: left
+    color: white
+    font-family: "Open Sans", sans-serif
+    font-size: 13px
+    font-weight: 400
+    padding: 10px
+    a
+      color: white
+      text-decoration: underline
+  .lifts
+    position: absolute
+    left: 26px
+    top: 134px
+    background-color: $blue-light
+    width: 97px
+    height: 475px
+    text-align: left
+    .conversion
+      position: absolute
+      left: 14px
+      .value
+        font-family: 'Lato', sans-serif
+        font-size: 24px
+        font-weight: 300
+        color: $blue-5
+      .label
+        font-family: "Open Sans", sans-serif
+        font-style: italic
+        font-size: 14px
+        font-weight: 600
+        color: $blue-5
+      &.leads
+        top: 205px
+      &.customers
+        top: 361px
+    .machine_conversion
+      position: absolute
+      left: 14px
+      .value
+        font-family: 'Lato', sans-serif
+        font-size: 24px
+        font-weight: 300
+        color: white
+      .label
+        font-family: "Open Sans", sans-serif
+        font-style: italic
+        font-size: 14px
+        font-weight: 600
+        color: white
+      &.lift
+        top: 30px
+      &.new_leads
+        top: 156px
+      &.new_customers
+        top: 314px
   .funnel_description
     font-family: "Open Sans", sans-serif
     font-style: italic
@@ -413,7 +487,8 @@ button
     
 .contact
   margin-top: 130px
-  margin-left: 290px
+  //margin-left: 290px
+  text-align: center
   font-style: italic
   color: $green-forest
   font-family: "Open Sans", sans-serif
@@ -431,6 +506,8 @@ button
   margin-right: 20px
   text-align: center
   color: $green-forest
+  font-family: 'Open Sans', sans-serif
+  font-size: 15px
   a
     color: $green-forest
     margin-top: 184px
@@ -442,9 +519,10 @@ button
     
 .share
   float: left
-  margin-left: 165px
+  margin-left: 155px
   width: 70px
   margin-top: 10px
+  margin-right: 10px
   
 .clear
   clear: both
@@ -568,8 +646,8 @@ button
 .height_646
   height: 646px
 
-.height_625
-  height: 625px
+.height_575
+  height: 575px
   
 .height_240
   height: 240px
@@ -654,6 +732,9 @@ button
 .line_height_45
   line-height: 45px
   
+.line_height_30
+  line-height: 30px
+  
 .line_height_22
   line-height: 22px
 
@@ -676,6 +757,9 @@ button
   
 .bold
   font-weight: bold
+  
+.no_transform
+  text-transform: none
 
 .zindex_10
   z-index: 10
@@ -719,8 +803,8 @@ button
 .margin_10t
   margin-top: 10px
   
-.margin_18t
-  margin-top: 18px
+.margin_8t
+  margin-top: 8px
   
 .margin_20t
   margin-top: 20px
@@ -740,6 +824,9 @@ button
 .margin_40t
   margin-top: 40px
   
+.margin_53t
+  margin-top: 53px
+  
 .margin_60t
   margin-top: 60px
 
@@ -748,9 +835,6 @@ button
   
 .margin_94t
   margin-top: 94px
-  
-.margin_103t
-  margin-top: 103px
   
 .margin_108t
   margin-top: 108px

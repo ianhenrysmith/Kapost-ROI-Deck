@@ -1,12 +1,16 @@
 %head
   %link{:href => "http://yui.yahooapis.com/3.5.1/build/cssreset/cssreset-min.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }  
   %link{:href => "stylesheets/css/main.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
+  %link{:href => "stylesheets/css/bootstrap.min.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
+  %link{:href => "stylesheets/css/jquery.fancybox-1.3.4.css", :media => "screen", :rel => "stylesheet", :type => "text/css" }
   %script{:src => "js/jquery-1.7.2.min.js" }
   %script{:src => "js/waypoints.min.js" }
   %script{:src => "js/jquery.scrollTo-1.4.2-min.js" }
   %script{:src => "js/jquery.easing.1.3.js" }
   %script{:src => "js/jquery.pitchdeck.js" }
-  %script{:src => "js/jquery.stellar.min.js" }
+  / %script{:src => "js/jquery.stellar.min.js" }
+  %script{:src => "js/bootstrap-tooltip.js" }
+  %script{:src => "js/jquery.fancybox-1.3.4.js" }
   %script{:src => "js/main.js" }
 .deck
   #nav
@@ -27,11 +31,11 @@
       .nav_spacer                                  
       %a.nav.toplink{:href=>"#slide_8", :title => "8"}=""
       .nav_spacer                                  
-      %a.nav.toplink{:href=>"#slide_9", :title => "9"}=""
-      .nav_spacer                                  
+      / %a.nav.toplink{:href=>"#slide_9", :title => "9"}=""
+      / .nav_spacer                                  
       %a.nav.toplink{:href=>"#slide_10", :title => "c", :class => "calculator"}=""
       .nav_spacer
-      %a.nav.toplink{:href=>"#slide_11", :title => "10"}=""
+      %a.nav.toplink{:href=>"#slide_11", :title => "9"}=""
   #slide_1.slide.padding_70t.zindex_9
     .slide_container.blue_seafoam.text_center.height_1000
     
@@ -113,7 +117,7 @@
       .subtitle_1
         LEAD NURTURING -  
       .title_secondary.text_blue_green.margin_55l Content is the fuel that powers the Marketing Automation engine
-      %a{:href => 'http://www.marketingprofs.com/articles/2012/8445/content-fuel-for-the-marketing-automation-engine', :target => '_blank', :class => 'margin_55l margin_18t margin_34b block'} Email &amp; lead nurturing campaigns struggle without compelling content
+      %a{:href => 'http://www.marketingprofs.com/articles/2012/8445/content-fuel-for-the-marketing-automation-engine', :target => '_blank', :class => 'margin_55l margin_8t margin_34b block'} Email &amp; lead nurturing campaigns struggle without compelling content
           
       .subtitle_1
         BOTTOM LINE -
@@ -147,7 +151,7 @@
         MARKETERS STRUGGLE WITH
         %br
         CONTENT MARKETING
-      .text_blue_green.title_secondary.margin_10t.text_center.font_size_20.italic All Marketers know that they need to become publishers, but few are doing it well.
+      .text_blue_green.title_secondary.margin_10t.text_center.font_size_18.italic All Marketers know that they need to become publishers, but few are doing it well.
     
     .slide_container.blue_seafoam.text_center.height_646
       %img{:src => "images/aberdeen-graph.png", :style => "", :class => "zindex_10 relative"}
@@ -165,18 +169,18 @@
         %br
         PROCESS, TOOLS, PRACTICES TO 
         %b SUCCEED
-      .text_blue_dark.title_secondary.margin_10t.text_center.font_size_20.italic Like any business operation (e.g. CRM for Sales), content marketing requires processes, best practices & tools
+      .text_blue_dark.title_secondary.margin_10t.text_center.font_size_18.italic Like any business operation (e.g. CRM for Sales), content marketing requires processes, best practices & tools
       
-    .slide_container.blue_seafoam.text_center.height_625
-      %img{:src => 'images/aberdeen-stat.png', :class => 'margin_103t'}
+    .slide_container.blue_seafoam.text_center.height_575
+      %img{:src => 'images/aberdeen-stat.png', :class => 'margin_53t'}
       
       .caption.margin_28t - SOURCE: ABERDEEN
       
-      %img{:src => "images/simple-cloud-1-lg-dark.png", :style => "left: -395px; top: 272px", :class => "cloud"}
-      %img{:src => "images/complex-cloud-3-sm-reverse.png", :style => "left: -220px; top: 410px", :class => "cloud zindex_6"}
-      %img{:src => "images/mini-machine-2.png", :style => "left: 244px; top: 252px", :class => "cloud zindex_7"}
-      %img{:src => "images/simple-cloud-2-sm.png", :style => "left: 420px; top: 544px", :class => "cloud zindex_8"}
-      %img{:src => "images/complex-cloud-4-sm.png", :style => "left: 660px; top: 455px", :class => "cloud zindex_9"}
+      %img{:src => "images/simple-cloud-1-lg-dark.png", :style => "left: -395px; top: 222px", :class => "cloud"}
+      %img{:src => "images/complex-cloud-3-sm-reverse.png", :style => "left: -220px; top: 360px", :class => "cloud zindex_6"}
+      %img{:src => "images/mini-machine-2.png", :style => "left: 244px; top: 202px", :class => "cloud zindex_7"}
+      %img{:src => "images/simple-cloud-2-sm.png", :style => "left: 420px; top: 494px", :class => "cloud zindex_8"}
+      %img{:src => "images/complex-cloud-4-sm.png", :style => "left: 660px; top: 405px", :class => "cloud zindex_9"}
       
   #slide_6.slide.slide_with_bleed
     .green_forest.zindex_10.relative
@@ -196,10 +200,11 @@
         how to apply them through this
         %br
         Kapost guide -
-      .text_blue_green.stripe.text_underline.text_open_sans.font_size_24.margin_30t
-        "How to Build and Operate a
-        %br
-        Content Marketing Machine"
+      .stripe.text_underline.text_arvo.font_size_24.margin_30t.no_transform.line_height_30
+        %a{:href => 'http://marketeer.kapost.com/2012/06/how-to-build-and-operate-a-content-marketing-machine/', :target => "_blank", :class => "text_blue_green"}
+          How to Build and Operate a
+          %br
+          Content Marketing Machine
         
       %img{:src => "images/complex-cloud-2-sm-dark.png", :style => "left: -145px; top: 347px", :class => "cloud"}
       %img{:src => "images/content-marketing-machine.png", :style => "left: 404px; top: 0px", :class => "cloud zindex_6"}
@@ -215,13 +220,14 @@
         IS THE FOUNDATION OF YOUR
         %br
         CONTENT MARKETING MACHINE
-      .text_blue_green.title_secondary.padding_20t.text_center.font_size_20.italic
+      .text_blue_green.title_secondary.padding_20t.text_center.font_size_18.italic
         Kapost organizes content marketing as a structured business process,
         %br
         enforcing best practices and optimizing results
     .slide_container.blue_seafoam.height_800
       %img{:src => "images/machine-foundation.png", :style => "left: -215px; top: 0px", :class => "cloud zindex_6"}
-      %img{:src => "images/video.png", :style => "left: 630px; top: 370px", :class => "cloud zindex_7"}
+      %a.fancyVideo.relative.zindex_7{:href => "http://www.youtube.com/watch?v=vSR9bYmhgUI"}
+        %img{:src => "images/video.png", :style => "left: 630px; top: 370px", :class => "cloud"}
       %img{:src => "images/complex-cloud-3-sm.png", :style => "left: 700px; top: 67px", :class => "cloud"}
       %img{:src => "images/complex-cloud-3-sm.png", :style => "left: -18px; top: 407px", :class => "cloud"}
       %img{:src => "images/simple-cloud-2-mini.png", :style => "left: 642px; top: 471px", :class => "cloud zindex_7"}
@@ -239,7 +245,7 @@
       .text_green_forest.zindex_6.relative
         .list_item_2
           %b.italic Software as a Service
-          no IT involved
+          &mdash; no IT involved
         .list_item_2
           30-day
           %b.italic free
@@ -259,7 +265,7 @@
       %img{:src => "images/simple-cloud-2-sm.png", :style => "left: 525px; top: 610px", :class => "cloud"}
       %img{:src => "images/simple-cloud-3-sm.png", :style => "left: 138px; top: 686px", :class => "cloud"}
       
-  #slide_9.slide.slide_with_bleed
+  #slide_9.slide.slide_with_bleed{:style => 'display:none'}
     .slide_container.blue_seafoam.height_70
       %img{:src => "images/complex-cloud-3-sm.png", :style => "left: 510px; top: 25px", :class => "cloud zindex_8"}
       %img{:src => "images/simple-cloud-1-lg.png", :style => "left: -71px; top: 79px", :class => "cloud zindex_8"}
@@ -270,7 +276,7 @@
         %b.inline_block.vertical_middle.margin_n40t run on 
         %img{:src => "images/kapost-logo-sm-white.png", :class => ""}
         
-      .text_green_aqua_dark.title_secondary.margin_10t.text_center.font_size_20.italic
+      .text_green_aqua_dark.title_secondary.margin_10t.text_center.font_size_18.italic
         Watch Content Marketing leaders from organizations such as Intel, Eloqua, and Trip Advisor
         %br
         discuss best practices and how they run their machines on Kapost
@@ -293,7 +299,7 @@
         %br
         CAN HAVE FOR
         %b YOU
-      .text_blue_dark.title_secondary.margin_10t.text_center.font_size_20.italic Enter information about your marketing operation to calculate your Return on Investment from Kapost
+      .text_blue_dark.title_secondary.margin_10t.text_center.font_size_18.italic Enter information about your marketing operation to calculate your Return on Investment from Kapost
   
     .slide_container.blue_seafoam.text_center
       #calculator
@@ -301,26 +307,33 @@
       
         .input_container
           %label{:for => "revenue_goal"} New Revenue Goal:
+          %img{:src => "images/question-mark.png", :rel => "tooltip", :title => "This should be the additional annual revenue planned to be generated by sales and marketing in your organization", :class => 'tip'}
           %br
-          %input{:name => "revenue_goal", :id => "revenue_goal"}
+          %span.dollar $
+          %input.with_dollar{:name => "revenue_goal", :id => "revenue_goal"}
       
         .input_container
           %label{:for => "average_revenue"} Average Revenue per Sale:
+          %img{:src => "images/question-mark.png", :rel => "tooltip", :title => "Average annual generated by each new customer", :class => 'tip'}
           %br
-          %input{:name => "average_revenue", :id => "average_revenue"}
+          %span.dollar $
+          %input.with_dollar{:name => "average_revenue", :id => "average_revenue"}
       
         .input_container
           %label{:for => "revenue_marketing"} % Revenue from Marketing:
+          %img{:src => "images/question-mark.png", :rel => "tooltip", :title => "The percentage of the New Revenue Goal that marketing is responsible to generate through leads, opportunities that it produces", :class => 'tip'}
           %br
           %input{:name => "revenue_marketing", :id => "revenue_marketing", :placeholder => "35%"}
       
         .input_container
           %label{:for => "conversion"} % Conversion Visitor/Touch to Lead:
+          %img{:src => "images/question-mark.png", :rel => "tooltip", :title => "The percentage of marketing touches / site visitors that convert to leads. The default given is an industry average.", :class => 'tip'}
           %br
           %input{:name => "conversion", :id => "conversion", :placeholder => "2%"}
       
         .input_container
           %label{:for => "lead"} % Lead to Customer:
+          %img{:src => "images/question-mark.png", :rel => "tooltip", :title => "The percentage of leads that convert to customers. The default given is an industry average.", :class => 'tip'}
           %br
           %input{:name => "lead", :id => "lead", :placeholder => ".25%"}
         
@@ -359,7 +372,7 @@
           
         .funnel_value
       
-        .funnel_label New Revenue
+        .funnel_label New Annual Revenue
       
         %button{:name => "rev_it", :id => "rev_it", :class=>"rev_it"}
           Rev it up on the Machine!
@@ -378,6 +391,28 @@
           The improvements your funnel would enjoy from
           %br
           the Content Marketing Machine -
+          
+        
+        .lifts
+          .machine_conversion.lift
+            .value
+            .label Lift
+          .machine_conversion.new_leads
+            .value
+            .label Machinized
+          .conversion.leads
+            .value
+            .label Baseline
+          .machine_conversion.new_customers
+            .value
+            .label Machinized
+          .conversion.customers
+            .value
+            .label Baseline
+        .lifts_description
+          Content Marketing operations that use best tools, practices & processes enjoy significantly higher results. Learn more in this 
+          %a{:href => "http://aberdeen.com/", :target => "_blank"} Aberdeen Report.
+      
           
         .funnel_description
           Baseline
@@ -424,7 +459,7 @@
 
         .funnel_value
 
-        .funnel_label New Revenue      
+        .funnel_label New Annual Revenue      
         
     .slide_container.blue_seafoam.height_70
       
@@ -474,7 +509,7 @@
           %u PDF
           
       .clear
-      .contact
+      .contact.zindex_9.relative
         %b To learn more, contact
         %a{:href => 'mailto:sales@kapost.com'} sales@kapost.com
         
