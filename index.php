@@ -523,9 +523,8 @@
     </div>
     <div class='slide_container blue_seafoam height_646'>
       <div class='list_item_2 text_green_forest text_center italic padding_70t'>
-        <!-- %b Download -->
-        <!-- and -->
-        Share this deck:
+        <b>Download</b>
+        and share this deck:
       </div>
       <div class='share'>
         <a class='twitter-share-button' data-count='vertical' data-via='' href='https://twitter.com/share'>Tweet</a>
@@ -537,15 +536,20 @@
         <script src='//platform.linkedin.com/in.js' type='text/javascript'></script>
         <script data-counter='top' type='IN/Share'></script>
       </div>
-      <!-- .download.powerpoint -->
-      <!-- %a{:href => "http://www.eloqua.com/grande/Grande_Guide_To_Sales_Enablement.html"} -->
-      <!-- %i.bold Unformatted -->
-      <!-- %u Powerpoint -->
-      <!--  -->
-      <!-- .download.pdf -->
-      <!-- %a{:href => "http://www.eloqua.com/grande/Grande_Guide_To_Sales_Enablement.html"} -->
-      <!-- %i.bold Formatted -->
-      <!-- %u PDF -->
+      <div class='download powerpoint'>
+        <!-- %a{:href => "http://www.eloqua.com/grande/Grande_Guide_To_Sales_Enablement.html"} -->
+        <div class='text'>
+          <i class='bold'>Unformatted</i>
+          <u>Powerpoint</u>
+        </div>
+      </div>
+      <div class='download pdf'>
+        <!-- %a{:href => "http://www.eloqua.com/grande/Grande_Guide_To_Sales_Enablement.html"} -->
+        <div class='text'>
+          <i class='bold'>Formatted</i>
+          <u>PDF</u>
+        </div>
+      </div>
       <div class='clear'></div>
       <div class='contact zindex_9 relative'>
         <b>To learn more, contact</b>

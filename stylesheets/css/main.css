@@ -473,14 +473,18 @@ button {
   color: #26424b;
   font-family: "Open Sans", sans-serif;
   font-size: 15px; }
+  .download .text {
+    margin-top: 184px;
+    display: block;
+    color: #7d7d7d; }
   .download a {
     color: #26424b;
     margin-top: 184px;
     display: block; }
   .download.powerpoint {
-    background: url("../../images/powerpoint-preview.png") no-repeat top left; }
+    background: url("../../images/powerpoint-preview-comingsoon.png") no-repeat top left; }
   .download.pdf {
-    background: url("../../images/pdf-preview.png") no-repeat top left; }
+    background: url("../../images/pdf-preview-comingsoon.png") no-repeat top left; }
 
 .share {
   float: left;
