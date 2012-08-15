@@ -19,8 +19,9 @@ html {
   z-index: 99; }
   #nav .table_container {
     margin: auto;
-    width: 760px; }
+    width: 827px; }
 
+/*    width: 760px */
 .deck {
   overflow-x: hidden;
   width: 100%; }
